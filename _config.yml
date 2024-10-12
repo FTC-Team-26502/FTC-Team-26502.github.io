@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 # remote_theme: pages-themes/cayman@v0.2.0
+remote_theme: chrisrhymes/bulma-clean-theme@v0.14.0
 title: BRB Robotics
 email: robotics@blueridgeboost.com
 description: >- # this means to ignore newlines until "baseurl:"
