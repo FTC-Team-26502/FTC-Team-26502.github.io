@@ -6,6 +6,20 @@ permalink: /robot/
 
 # Engineering Log
 
+## Pre-season
+
+### Week of 8/5
+-Learned how FTC works
+-Built a v5 Strafer Chassis
+-Started basic diriving base code
+
+### Week of 8/12
+-Built a Looney Claw to practice grabbing. 
+-Started driving with the base code
+
+## September 2024
+### Week of 9/2
+-Started code for the Looney Claw
 
 
 ## October 2024
