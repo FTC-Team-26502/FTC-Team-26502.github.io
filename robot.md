@@ -44,11 +44,13 @@ add text here
 ##### 10/10
 add text here
 
-##### 10/11
-add text here
 
-##### 10/12
-add text here
+
+##### 11/2
+We added the viper arm with claw and bbought walls
+
+##### 11/3
+added the walls and began software
 
 
 #### Robot at end of week

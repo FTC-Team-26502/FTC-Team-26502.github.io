@@ -39,6 +39,4 @@ permalink: /outreach/
         Other Events
     </button>
 </body>
-We tutored girls aged nine to eleven years old.
-We taught them how to code python using Code Monkey. 
-We also taught them how to code using scratch.  
+For our outrache we focused on engaging with comunite and girls in stem
