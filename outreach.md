@@ -8,10 +8,10 @@ permalink: /outreach/
 <head>
     <style>
         .github-button {
-            background-color: #24292e;
+            background-color: #496970;
             color: white;
             padding: 12px 24px;
-            border: none;
+            border: #248AF0;
             border-radius: 6px;
             font-size: 16px;
             cursor: pointer;
@@ -19,7 +19,7 @@ permalink: /outreach/
         }
 
         .github-button:hover {
-            background-color: #2c974b;
+            background-color: #248AF0;
         }
     </style>
 </head>
@@ -39,4 +39,4 @@ permalink: /outreach/
         Other Events
     </button>
 </body>
-For our outrache we focused on engaging with comunite and girls in stem
+For our outraech we focused on engaging with comunite and girls in stem
