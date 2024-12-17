@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Robot Design
-permalink: /robot/
+permalink: /robotDesign/
 ---
 
 # V1
