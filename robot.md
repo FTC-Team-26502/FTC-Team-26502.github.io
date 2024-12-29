@@ -39,5 +39,13 @@ permalink: /robot/
         Robot Design
     </button>
 </body>
+<body>
+    <!-- Method 1: Using an <a> tag styled as a button
+    <a href="https://your-link-here.com" class="github-button">Go to Page</a> -->
+
+    <button class="github-button2" onclick="window.location.href='/robotTutorial'">
+        Tutorials
+    </button>
+</body>
 
 
