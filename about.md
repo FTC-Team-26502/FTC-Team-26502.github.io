@@ -122,11 +122,11 @@
         <div class="team-card" onclick="flipCard(this)">
           <div class="card-side card-front">
             <img src="https://via.placeholder.com/100" alt="Alex Nightshade">
-            <h3>Alex Nightshade</h3>
-            <p>Mechanical Engineer</p>
+            <h3>Dorina Evans</h3>
+            <p>Software Developer</p>
           </div>
           <div class="card-side card-back">
-            <p>Hi, I'm Alex! I specialize in innovative robotics and creative designs that bring ideas to life.</p>
+            <p>I have been part of FIRST for seven years, starting with FLL Explore and progressing to FTC last year. These competitions have fueled my passion for coding and engineering. We won the Control Award last year. I focus on Computer Aided Design (CAD) for our robot and will also handle the coding for both our teleop and autonomous modes.</p>
           </div>
         </div>
       </div>
@@ -136,11 +136,12 @@
         <div class="team-card" onclick="flipCard(this)">
           <div class="card-side card-front">
             <img src="https://via.placeholder.com/100" alt="Raven Steele">
-            <h3>Raven Steele</h3>
-            <p>Software Developer</p>
+            <h3>Ananya Singla</h3>
+            <p>Outreach Specialist</p>
           </div>
           <div class="card-side card-back">
-            <p>I'm Raven! I love coding futuristic solutions and crafting seamless user experiences.</p>
+            <p>This is my second year as part of FIRST. Last year, I participated in FLL Challenge, and this year, I completed my final year of eligibility for FLL while beginning my first year in FTC. I’m excited to continue FTC and join FRC in high school next year! Looking ahead, I hope to deepen my understanding of engineering techniques, artificial intelligence, and programming, and explore how they can be applied to solving real-world problems.
+          </p>
           </div>
         </div>
       </div>
@@ -150,11 +151,11 @@
         <div class="team-card" onclick="flipCard(this)">
           <div class="card-side card-front">
             <img src="https://via.placeholder.com/100" alt="Ember Dusk">
-            <h3>Ember Dusk</h3>
-            <p>Outreach Specialist</p>
+            <h3>Arnie Singla</h3>
+            <p>Mechanical Engineer</p>
           </div>
           <div class="card-side card-back">
-            <p>Hello! I'm Ember, and I thrive on building connections and bringing bold ideas to the community.</p>
+            <p>This is my second year in the FIRST community. I participated in FLL Challenge for two years, starting in third grade, where my teams earned the Innovation and Robot Design Awards at regionals. I initially joined my current team over the summer, took a short break to focus on FLL Challenge, and rejoined during winter break. I’m excited to continue my journey with FIRST for the next eight years and explore new opportunities to grow and contribute.</p>
           </div>
         </div>
       </div>
