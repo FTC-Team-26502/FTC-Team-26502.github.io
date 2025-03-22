@@ -74,10 +74,10 @@
     }
 
     .team-card .card-front img {
-      width: 100px;
-      height: 100px;
-      border-radius: 50%;
-      margin-bottom: 15px;
+      width: 200px;
+      height: 200px;
+      border-radius: 10%;
+      margin-bottom: 5px;
     }
 
     .team-card .card-front h3 {
@@ -121,7 +121,7 @@
       <div class="card-container">
         <div class="team-card" onclick="flipCard(this)">
           <div class="card-side card-front">
-            <img src="https://via.placeholder.com/100" alt="Alex Nightshade">
+            <img src="/Images/GlindaDuck.jpg" alt="Dorina Evans">
             <h3>Dorina Evans</h3>
             <p>Software Developer</p>
           </div>

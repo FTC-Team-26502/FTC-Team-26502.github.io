@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Events
-permalink: /fundraising/
+permalink: /events/
 ---
 
 <html lang="en">
