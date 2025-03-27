@@ -114,12 +114,12 @@ permalink: /events/
 
       <!-- Event 2 -->
       <div class="event-item">
-        <h3>Fundraising Gala</h3>
-        <p><strong>Date:</strong> May 15, 2025</p>
-        <p><strong>Time:</strong> 6:00 PM - 9:00 PM</p>
-        <p><strong>Location:</strong> Grand Ballroom, City Hall</p>
-        <p>An evening of fun, networking, and support for our robotics initiatives. Dinner and entertainment included!</p>
-        <a href="/events/fundraising-gala" class="event-button">Learn More</a>
+        <h3>FLL Scrimmage</h3>
+        <p><strong>Date:</strong> May 10, 2025</p>
+        <p><strong>Time:</strong> 9:00 AM - 12:00 Noon</p>
+        <p><strong>Location:</strong> Blue Ridge Boost, 2171 Ivy Road Charllotesville VA</p>
+        <p>Come check out our local FIRST Lego League (FLL) scrimmage, where teams will battle it out in an exciting robot game! Watch as they put their creativity and engineering skills to the test on the field.</p>
+        <a href="/FLLScrimmage" class="event-button">Learn More</a>
       </div>
 
       <!-- Event 3 -->
