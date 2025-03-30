@@ -121,7 +121,7 @@
       <div class="card-container">
         <div class="team-card" onclick="flipCard(this)">
           <div class="card-side card-front">
-            <img src="/Images/GlindaDuck.jpg" alt="Dorina Evans">
+            <img src="/Images/Dorina.jpg" alt="Dorina Evans">
             <h3>Dorina Evans</h3>
             <p>Software Developer</p>
           </div>
@@ -135,7 +135,7 @@
       <div class="card-container">
         <div class="team-card" onclick="flipCard(this)">
           <div class="card-side card-front">
-            <img src="https://via.placeholder.com/100" alt="Raven Steele">
+            <img src="/Images/Ananya.jpg" alt="Raven Steele">
             <h3>Ananya Singla</h3>
             <p>Outreach Specialist</p>
           </div>
@@ -150,7 +150,7 @@
       <div class="card-container">
         <div class="team-card" onclick="flipCard(this)">
           <div class="card-side card-front">
-            <img src="https://via.placeholder.com/100" alt="Ember Dusk">
+            <img src="/Images/Arnie.jpg" alt="Arnie Singla">
             <h3>Arnie Singla</h3>
             <p>Mechanical Engineer</p>
           </div>
