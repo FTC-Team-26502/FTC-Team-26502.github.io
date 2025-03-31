@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -68,7 +67,7 @@
   <p><strong>Time:</strong> 2:00 PM - 4:00 PM</p>
   <p><strong>Location:</strong> 2172, Ivy Road, Charlottesville VA</p>
 
-  <p>
+  <p  align="left">
 
     🌊🤖 Join Us for Our First-Ever Competition! 🤖🌊 <br> 
     We’re excited to host our first local competition to give younger students a chance to explore STEM and dive into the world of FIRST! 🚀  <br> 
