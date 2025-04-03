@@ -130,8 +130,7 @@
           </div>
         </div>
       </div>
-
-      <!-- Team Member 2 -->
+      <!-- Team Member 2 -->      
       <div class="card-container">
         <div class="team-card" onclick="flipCard(this)">
           <div class="card-side card-front">
@@ -140,12 +139,10 @@
             <p>Outreach Specialist</p>
           </div>
           <div class="card-side card-back">
-            <p>This is my second year as part of FIRST. Last year, I participated in FLL Challenge, and this year, I completed my final year of eligibility for FLL while beginning my first year in FTC. I’m excited to continue FTC and join FRC in high school next year! Looking ahead, I hope to deepen my understanding of engineering techniques, artificial intelligence, and programming, and explore how they can be applied to solving real-world problems.
-          </p>
+            <p>This year is my third year of FIRST and I have completed two seasons of FLL Challenge and this will be my second year of FTC. Through FIRST and similar competitions alike, I have gained a passion for engineering, coding, and sharing robotics with my community. This year, I am our team's outreach coordinator, co-captain with Dorina, driving coach, and a builder.</p>
           </div>
         </div>
       </div>
-
       <!-- Team Member 3 -->
       <div class="card-container">
         <div class="team-card" onclick="flipCard(this)">
@@ -155,7 +152,7 @@
             <p>Mechanical Engineer</p>
           </div>
           <div class="card-side card-back">
-            <p>This is my second year in the FIRST community. I participated in FLL Challenge for two years, starting in third grade, where my teams earned the Innovation and Robot Design Awards at regionals. I initially joined my current team over the summer, took a short break to focus on FLL Challenge, and rejoined during winter break. I’m excited to continue my journey with FIRST for the next eight years and explore new opportunities to grow and contribute.</p>
+            <p>This is my third year in the FIRST community. I participated in FLL Challenge for two years, starting in third grade, where my teams earned the Innovation and Robot Design Awards at regionals qualifiers.  I’m excited to continue my journey with FIRST for the next seven years and explore new opportunities to grow and contribute.</p>
           </div>
         </div>
       </div>

@@ -103,32 +103,30 @@
     <div class="events-list">
       <!-- Event 1 -->
       <div class="event-item">
+        <h3>Kidvention</h3>
+        <p><strong>Date:</strong> April 26th, 2025</p>
+        <p><strong>Time:</strong> 9:30 AM- 1:00 PM</p>
+        <p><strong>Location:</strong> Herman Key Recreation Center, 800 E. Market Street, Charlottesville, VA</p>
+        <p align="left"> Join us at the annual stem-fest hosted by the Virginia Discovery Museum! Test your driving skills by driving our chassis drive base and other fun challenges. </p>
+        <a href="/events/community-outreach-workshop" class="event-button">Learn More</a>
+      </div>
+      <!-- Event 2 -->
+      <div class="event-item">
         <h3>FLL Explore Expo</h3>
         <p><strong>Date:</strong> May 4, 2025</p>
         <p><strong>Time:</strong> 2:00 PM - 4:00 PM</p>
-        <p><strong>Location:</strong> 2172, Ivy Road, Charlottesville VA</p>
+        <p><strong>Location:</strong> Blue Ridge Boost, 2171 Ivy Road, Charlottesville, VA</p>
         <p align="left">Join us in celebrating the remarkable work of our participating teams this season, and explore their amazing ocean-themed creations.</p>
         <a href="/FLLExpo" class="event-button">Learn More</a>
       </div>
-
-      <!-- Event 2 -->
+      <!-- Event 3 -->
       <div class="event-item">
         <h3>FLL Scrimmage</h3>
         <p><strong>Date:</strong> May 10, 2025</p>
-        <p><strong>Time:</strong> 9:00 AM - 12:00 Noon</p>
-        <p><strong>Location:</strong> Blue Ridge Boost, 2171 Ivy Road Charlottesville VA</p>
+        <p><strong>Time:</strong> 9:00 AM - 12:00 PM</p>
+        <p><strong>Location:</strong> Blue Ridge Boost, 2171 Ivy Road, Charlottesville, VA</p>
         <p align="left">Come check out our local FIRST Lego League (FLL) scrimmage, where teams will battle it out in an exciting robot game! Watch as they put their creativity and engineering skills to the test on the field.</p>
         <a href="/FLLScrimmage" class="event-button">Learn More</a>
-      </div>
-
-      <!-- Event 3 -->
-      <div class="event-item">
-        <h3>Community Outreach Workshop</h3>
-        <p><strong>Date:</strong> June 10, 2025</p>
-        <p><strong>Time:</strong> 1:00 PM - 4:00 PM</p>
-        <p><strong>Location:</strong> Local Library, Room 101</p>
-        <p align="left">We're hosting a hands-on robotics workshop for kids and families. Learn how robots work and how to build your own!</p>
-        <a href="/events/community-outreach-workshop" class="event-button">Learn More</a>
       </div>
     </div>
   </section>

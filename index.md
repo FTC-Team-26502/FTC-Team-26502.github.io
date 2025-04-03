@@ -201,14 +201,15 @@
   <div class="team-info" id="contact">
     <h2>Contact Us</h2>
     <p>Interested in learning more about our team? Want to become a sponsor? Have questions about FIRST Tech Challenge?</p>
-    <p>Email: ftcteam26502@example.com</p>
+    <p>Email: info@brbrobotics.org</p>
+    <p>Phone Number: (Insert Phone Number Here)</p>
     <a href="#" class="button">YouTube</a>
   </div>
 
   <!-- Footer -->
   <footer>
     <p>&copy; 2025 FTC Team 26502. All Rights Reserved.</p>
-    <p>FIRST®, FIRST® Tech Challenge, and CENTERSTAGE℠ are trademarks of FIRST (For Inspiration and Recognition of Science and Technology).</p>
+    <p>FIRST® and FIRST® Tech Challenge are trademarks of FIRST (For Inspiration and Recognition of Science and Technology).</p>
   </footer>
 </body>
 
