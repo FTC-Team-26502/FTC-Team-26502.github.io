@@ -202,7 +202,8 @@
     <h2>Contact Us</h2>
     <p>Interested in learning more about our team? Want to become a sponsor? Have questions about FIRST Tech Challenge?</p>
     <p>Email: info@brbrobotics.org</p>
-    <p>Phone Number: (Insert Phone Number Here)</p>
+    <p>Phone Number: 434-688-6119</p>
+    <p>Follow us on Instagram: </p>
     <a href="#" class="button">YouTube</a>
   </div>
 
