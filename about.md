@@ -147,7 +147,7 @@
       <div class="card-container">
         <div class="team-card" onclick="flipCard(this)">
           <div class="card-side card-front">
-            <img src="/Images/Arnie.jpg" alt="Arnie Singla">
+            <img src="/Images/Arnie.JPG" alt="Arnie Singla">
             <h3>Arnie Singla</h3>
             <p>Builder</p>
           </div>
