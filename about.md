@@ -123,7 +123,7 @@
           <div class="card-side card-front">
             <img src="/Images/Dorina.jpg" alt="Dorina Evans">
             <h3>Dorina Evans</h3>
-            <p>Software Developer</p>
+            <p>Engineering and Coding Lead</p>
           </div>
           <div class="card-side card-back">
             <p>I have been part of FIRST for seven years, starting with FLL Explore and progressing to FTC last year. These competitions have fueled my passion for coding and engineering. We won the Control Award last year. I focus on Computer Aided Design (CAD) for our robot and will also handle the coding for both our teleop and autonomous modes.</p>
@@ -136,7 +136,7 @@
           <div class="card-side card-front">
             <img src="/Images/Ananya.jpg" alt="Raven Steele">
             <h3>Ananya Singla</h3>
-            <p>Outreach Specialist</p>
+            <p>Team Operations Lead</p>
           </div>
           <div class="card-side card-back">
             <p>This year is my third year of FIRST and I have completed two seasons of FLL Challenge and this will be my second year of FTC. Through FIRST and similar competitions alike, I have gained a passion for engineering, coding, and sharing robotics with my community. This year, I am our team's outreach coordinator, co-captain with Dorina, driving coach, and a builder.</p>
@@ -149,10 +149,23 @@
           <div class="card-side card-front">
             <img src="/Images/Arnie.jpg" alt="Arnie Singla">
             <h3>Arnie Singla</h3>
-            <p>Mechanical Engineer</p>
+            <p>Builder</p>
           </div>
           <div class="card-side card-back">
             <p>This is my third year in the FIRST community. I participated in FLL Challenge for two years, starting in third grade, where my teams earned the Innovation and Robot Design Awards at regionals qualifiers.  I’m excited to continue my journey with FIRST for the next seven years and explore new opportunities to grow and contribute.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Team Member 4 -->
+      <div class="card-container">
+        <div class="team-card" onclick="flipCard(this)">
+          <div class="card-side card-front">
+            <img src="/Images/MaxwellEvans.JPG" alt="Maxwell Evans">
+            <h3>Maxwell Evans</h3>
+            <p>Fundraiser</p>
+          </div>
+          <div class="card-side card-back">
+            <p>This is my third year as a part of FIRST.</p>
           </div>
         </div>
       </div>

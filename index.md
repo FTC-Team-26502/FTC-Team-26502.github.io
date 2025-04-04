@@ -136,14 +136,14 @@
 <body>
   <!-- Team Information Section -->
   <div class="team-info" id="about">
-    <h1>Wicked Smart; Quacking Up Innovation</h1>
+    <h1>Wicked Smart: Quacking Up Innovation</h1>
     <p>We’re a girl-powered FIRST Tech Challenge (FTC) team from Charlottesville, Virginia, dedicated to inspiring our community through STEM and FIRST initiatives.</p>
   </div>
 
   <!-- Our Team Section -->
   <div class="featured-section">
     <div class="featured-image">
-      <img src="/Images/TeamPhoto.JPG" alt="Team Photo">
+      <img src="/Images/TeamPhoto.jpg" alt="Team Photo">
     </div>
     <div class="featured-text">
       <h2>Our Team</h2>
