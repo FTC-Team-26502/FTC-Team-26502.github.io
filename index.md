@@ -203,7 +203,7 @@
     <p>Interested in learning more about our team? Want to become a sponsor? Have questions about FIRST Tech Challenge?</p>
     <p>Email: info@brbrobotics.org</p>
     <p>Phone Number: 434-688-6119</p>
-    <p>Follow us on Instagram: </p>
+    <p>Follow us on Instagram: @ftcteam26502 </p>
     <a href="#" class="button">YouTube</a>
   </div>
 
