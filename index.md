@@ -179,11 +179,11 @@
   <!-- Team Stats -->
   <div class="stats-section">
     <div class="stat-box">
-      <div class="stat-number">1</div>
+      <div class="stat-number">2</div>
       <div class="stat-label">Competition Seasons</div>
     </div>
     <div class="stat-box">
-      <div class="stat-number">3</div>
+      <div class="stat-number">4</div>
       <div class="stat-label">Team Members</div>
     </div>
     <div class="stat-box">
