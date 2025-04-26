@@ -136,14 +136,13 @@
 <body>
   <!-- Team Information Section -->
   <div class="team-info" id="about">
-    <h1>Wicked Smart: Quacking Up Innovation</h1>
-    <p>We’re a girl-powered FIRST Tech Challenge (FTC) team from Charlottesville, Virginia, dedicated to inspiring our community through STEM and FIRST initiatives.</p>
+    <h1>Wicked Smart; Quacking Up Innovation</h1>
   </div>
 
   <!-- Our Team Section -->
   <div class="featured-section">
     <div class="featured-image">
-      <img src="/Images/TeamPhoto.jpg" alt="Team Photo">
+      <img src="/Images/TeamPhoto.JPG" alt="Team Photo">
     </div>
     <div class="featured-text">
       <h2>Our Team</h2>
@@ -184,11 +183,11 @@
       <div class="stat-label">Competition Seasons</div>
     </div>
     <div class="stat-box">
-      <div class="stat-number">4</div>
+      <div class="stat-number">3</div>
       <div class="stat-label">Team Members</div>
     </div>
     <div class="stat-box">
-      <div class="stat-number">16</div>
+      <div class="stat-number">17</div>
       <div class="stat-label">Events</div>
     </div>
     <div class="stat-box">
@@ -201,16 +200,14 @@
   <div class="team-info" id="contact">
     <h2>Contact Us</h2>
     <p>Interested in learning more about our team? Want to become a sponsor? Have questions about FIRST Tech Challenge?</p>
-    <p>Email: info@brbrobotics.org</p>
-    <p>Phone Number: 434-688-6119</p>
-    <p>Follow us on Instagram: @ftcteam26502 </p>
+    <p>Email: ftcteam26502@example.com</p>
     <a href="#" class="button">YouTube</a>
   </div>
 
   <!-- Footer -->
   <footer>
     <p>&copy; 2025 FTC Team 26502. All Rights Reserved.</p>
-    <p>FIRST® and FIRST® Tech Challenge are trademarks of FIRST (For Inspiration and Recognition of Science and Technology).</p>
+    <p>FIRST®, FIRST® Tech Challenge, and CENTERSTAGE℠ are trademarks of FIRST (For Inspiration and Recognition of Science and Technology).</p>
   </footer>
 </body>
 
