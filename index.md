@@ -142,7 +142,7 @@
   <!-- Our Team Section -->
   <div class="featured-section">
     <div class="featured-image">
-      <img src="/Images/TeamPhoto.JPG" alt="Team Photo">
+      <img src="/Images/TeamPhoto.jpg" alt="Team Photo">
     </div>
     <div class="featured-text">
       <h2>Our Team</h2>
