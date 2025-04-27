@@ -101,15 +101,6 @@
 
     <!-- Events List -->
     <div class="events-list">
-      <!-- Event 1 -->
-      <div class="event-item">
-        <h3>Kidvention</h3>
-        <p><strong>Date:</strong> April 26th, 2025</p>
-        <p><strong>Time:</strong> 9:30 AM- 1:00 PM</p>
-        <p><strong>Location:</strong> Herman Key Recreation Center, 800 E. Market Street, Charlottesville, VA</p>
-        <p align="left"> Join us at the annual stem-fest hosted by the Virginia Discovery Museum! Test your driving skills by driving our chassis drive base and other fun challenges. </p>
-        <a href="/events/community-outreach-workshop" class="event-button">Learn More</a>
-      </div>
       <!-- Event 2 -->
       <div class="event-item">
         <h3>FLL Explore Expo</h3>
