@@ -97,7 +97,7 @@
     <a href="https://example.com/fll-team-registration" target="_blank" class="button">Team Registration</a>
 
     <!-- Button for Registering as a Judge -->
-    <a href="https://example.com/fll-judge-registration" target="_blank" class="button">Register to Be a Judge</a>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeo58jg-2ZXQOjlmXy0z5PVvyjSlZ7EdVWn3M_OPXpAb91-Tw/viewform?usp=sharing" target="_blank" class="button">Register to Be a Judge</a>
     
     <!-- Button for Volunteer Registration -->
     <a href="https://example.com/fll-volunteer-registration" target="_blank" class="button">Volunteer Signup</a>
