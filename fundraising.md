@@ -384,6 +384,8 @@
             <li>Custom STEM presentation for your organization</li>
           </ul>
           <p>Your $10,000+ contribution is transformational for our team, enabling us to purchase top-tier equipment and establish long-term sustainability!</p>
+          <p>Our current Quack Attack Platinum sponsors are:</p>
+            <li>Blue Ridge Boost</li>
         </div>
       </div>
     </div>
