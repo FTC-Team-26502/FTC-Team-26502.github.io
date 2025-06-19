@@ -24,7 +24,7 @@
       <!-- Donation Tier 1 -->
       <div class="donation-card">
         <h3>JUST QUACKING BY</h3>
-        <p><b>Benefits:</b> Company name and logo on our website. </p>
+        <p><b>Benefits:</b> Your company's name and logo on our website. </p>
         <a href="#" class="donate-button">Sponsor $100</a>
       </div>
 
