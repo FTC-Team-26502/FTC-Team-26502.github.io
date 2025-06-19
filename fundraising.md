@@ -38,8 +38,7 @@
       <!-- Donation Tier 3 -->
       <div class="donation-card">
         <h3>POND PROTECTORS</h3>
-        <p><b>Benefits:</b> All Feather Fanatics benefits and a logo opn our team shirts. </p>
-        <p>Must be submitted by 11/1/2025</p>
+        <p><b>Benefits:</b> All Feather Fanatics benefits and a logo on our team shirts. </p>
         <a href="#" class="donate-button">Sponsor $500</a>
       </div>
 
@@ -47,7 +46,6 @@
       <div class="donation-card">
         <h3>SUPREME SQUEAKERS</h3>
         <p><b>Benefits:</b> All Pond Protectors benefits and a sticker on our robot. </p>
-        <p>Must be submitted by 11/1/2025</p>
         <a href="#" class="donate-button">Sponsor $1,000</a>
       </div>
 
@@ -55,7 +53,6 @@
       <div class="donation-card">
         <h3>MALLARD MAGNATES</h3>
         <p><b>Benefits:</b> All Supreme Squeakers benefits and three posts on our social media. </p>
-        <p>Must be submitted by 11/1/2025</p>
         <a href="#" class="donate-button">Sponsor $5,000</a>
       </div>
 
@@ -63,9 +60,12 @@
       <div class="donation-card">
         <h3>QUACK ATTACK PLATINUM</h3>
         <p><b>Benefits:</b> All Mallard Magnates benefits, 2 more social media posts, and your logo on our 2' x 3' competition pit banner. </p>
-        <p>Must be submitted by 11/1/2025</p>
         <a href="#" class="donate-button">Sponsor $10,000+</a>
-    </div>
+      </div>
+
+      
+        <h3><b>ALL POND PROTECTORS, SUPREME SQUEAKERS, MALLARD MAGNATES, AND QUACK ATTACK PLATINUM DONATIONS MUST BE RECEIVED BY 11/1/2025 TO BE PUT ON THE 2025-2026 SEASON TEAM SHIRTS.</b></h3>
+      
     
     <p>All sponsorships help our team compete in the FIRST Tech Challenge and inspire future engineers!</p>
   <!-- </section> -->
