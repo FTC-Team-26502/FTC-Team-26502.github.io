@@ -215,8 +215,7 @@
     <h1>Support Our FTC Team</h1>
     <p>Your contributions help our FIRST Tech Challenge team build robots, participate in competitions, and inspire the next generation of STEM innovators.</p>
     
-    <h2>Our Rubber Duck Sponsorship Levels</h2>
-    <p>Join our team of supporters with these duck-tastic sponsorship options!</p>
+    
 
     <div class="custom-donation">
       <h2>Custom Donation Amount</h2>
@@ -229,6 +228,9 @@
         <button type="submit" class="donate-button">Donate Now</button>
       </form>
     </div>
+
+    <h2>Our Rubber Duck Sponsorship Levels</h2>
+    <p>Join our team of supporters with these duck-tastic sponsorship options!</p>
 
     <div class="donation-container">
       <!-- Donation Tier 1 -->

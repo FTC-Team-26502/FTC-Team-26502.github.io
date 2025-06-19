@@ -160,12 +160,12 @@
       <div class="card-container">
         <div class="team-card" onclick="flipCard(this)">
           <div class="card-side card-front">
-            <img src="/Images/MaxwellEvansGoodPicture.JPG" alt="Maxwell Evans">
-            <h3>Maxwell Evans</h3>
-            <p>Fundraiser</p>
+            <img src="/Images/IMG_2701.jpg" alt="Sagnik Biswas">
+            <h3>Sagnik Biswas</h3>
+            <p>Builder</p>
           </div>
           <div class="card-side card-back">
-            <p>This is my third year as a part of FIRST.</p>
+            <p>Sagnik</p>
           </div>
         </div>
       </div>

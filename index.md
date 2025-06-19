@@ -36,6 +36,22 @@
       line-height: 1.6;
     }
 
+    .flex-container {
+      display: flex;
+      justify-content: space-between; /* Push items to opposite ends */
+      align-items: center; /* Vertically align items */
+    }
+
+    .left {
+      padding: 20px;
+      text-align: left;
+    }
+
+    .right {
+      padding: 20px;
+      text-align: right;
+    }
+
     .team-info {
       background: rgb(183, 255, 176); /* Light green box color */
       border: 4px solid rgb(255, 220, 250); /* Pink border color */
@@ -153,7 +169,7 @@
   <!-- Robot Design Section -->
   <div class="featured-section">
     <div class="featured-text">
-      <h2>Meet Our Robot</h2>
+      <h2>Last Year's Robot</h2>
       <p>Chassis: Compact 13.5” x 15” for agility; limited space for mechanisms.<br>
         Drivetrain: Miter gearboxes optimized weight but reduced intake space.<br>
         Intake: 3D-printed claw on a rotating arm with Viper slide and scissor lift.<br>
@@ -199,16 +215,20 @@
   <!-- Contact Section -->
   <div class="team-info" id="contact">
     <h2>Contact Us</h2>
-    <p>Interested in learning more about our team? Want to become a sponsor? Have questions about FIRST Tech Challenge?</p>
-    <p>Email: info@brbrobotics.org</p>
-    <!-- <a href="#" class="button">YouTube</a> -->
+    <p>We’d love to hear from you! Whether you’re interested in learning more about our team, becoming a sponsor, or have questions about the FIRST Tech Challenge, we’re here to help. Let’s connect and inspire innovation together!</p>
+    <p>You can reach us via email, or follow us on our social media channels to stay updated on our journey.</p>
+    <div class="flex-container">
+      <div class = "left"><p><strong>Email:</strong> <a href="mailto:info@brbrobotics.org">info@brbrobotics.org</a></p></div>
+      <div class = "right"><p><strong>Follow Us:</strong> <a href="https://www.instagram.com/ftcteam26502/" target="_blank">Instagram</a></p></div>
+    </div>
   </div>
 
+
   <!-- Footer -->
-  <footer>
-    <p>&copy; 2025 FTC Team 26502. All Rights Reserved.</p>
-    <p>FIRST® and FIRST® Tech Challenge are trademarks of FIRST (For Inspiration and Recognition of Science and Technology).</p>
-  </footer>
+  <!-- <footer>
+    <!-- <p>&copy; 2025 FTC Team 26502. All Rights Reserved.</p>
+    <p>FIRST® and FIRST® Tech Challenge are trademarks of FIRST (For Inspiration and Recognition of Science and Technology).</p> -->
+  <!-- </footer> --> 
 </body>
 
 </html>
