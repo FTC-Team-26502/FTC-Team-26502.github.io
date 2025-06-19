@@ -1,67 +1,3 @@
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FLL Explore Expo</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: 'Arial', sans-serif;
-      background-color: rgb(255, 220, 250);
-      color: #000;
-      text-align: center;
-      padding: 2rem;
-    }
-
-    h1 {
-      color: rgb(253, 0, 211);
-      margin-bottom: 1rem;
-    }
-
-    p {
-      margin-top: 1rem;
-      font-size: 1.2rem;
-      color: #333;
-    }
-
-    .button-group {
-      margin-top: 2rem;
-    }
-
-    .button {
-      display: inline-block;
-      margin: 0.5rem;
-      padding: 0.7rem 1.5rem;
-      font-size: 1rem;
-      font-weight: bold;
-      color: #fff;
-      background-color: #007c11;
-      text-decoration: none;
-      border-radius: 5px;
-      transition: background-color 0.3s ease;
-    }
-
-    .button:hover {
-      background-color: #005a0d;
-    }
-
-    .back-link {
-      display: block;
-      margin-top: 2rem;
-      font-size: 1rem;
-      text-decoration: underline;
-      color: #007c11;
-    }
-
-    .back-link:hover {
-      color: #005a0d;
-    }
-  </style>
-</head>
-
-<body>
   <h1>FLL Explore Expo</h1>
   <p><strong>Date:</strong> May 4, 2025</p>
   <p><strong>Time:</strong> 2:00 PM - 4:00 PM</p>
@@ -105,6 +41,3 @@
 
   <!-- Back to Events Link -->
   <a href="/Outreach/" class="back-link">Back to Events</a>
-</body>
-
-</html>
