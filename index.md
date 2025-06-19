@@ -201,7 +201,7 @@
     <h2>Contact Us</h2>
     <p>Interested in learning more about our team? Want to become a sponsor? Have questions about FIRST Tech Challenge?</p>
     <p>Email: info@brbrobotics.org</p>
-    <a href="#" class="button">YouTube</a>
+    <!-- <a href="#" class="button">YouTube</a> -->
   </div>
 
   <!-- Footer -->
