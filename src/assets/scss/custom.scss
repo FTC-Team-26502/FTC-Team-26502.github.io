@@ -1,0 +1,36 @@
+// Color Variables
+{{ with site.Params.variables }}
+$dark-green: {{.dark-green}};
+$light-green: {{.light-green}};
+$dark-pink: {{.dark-pink}};
+$light-pink: {{.light-pink}};
+{{ end }}
+
+section.hero-area h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.02em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  color: $light-green !important; // Use light green for better contrast
+}
+
+/* Responsive font sizes */
+@media (max-width: 1200px) {
+  .hero-area h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-area h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-area h1 {
+    font-size: 2rem;
+  }
+}

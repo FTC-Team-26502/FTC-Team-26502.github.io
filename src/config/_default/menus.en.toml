@@ -1,0 +1,60 @@
+############# English navigation ##############
+# main menu    
+
+[[main]]
+name = "FTC Team 26502"
+URL = "#"
+weight = 1
+
+[[main]]
+name = "Donations"
+URL = "donations/"
+weight = 2
+
+[[main]]
+name = "Robot"
+URL = "robot/"
+weight = 3
+
+[[main]]
+name = "Outreach"
+URL = "outreach/"
+weight = 4
+
+[[main]]
+name = "Meet the Team"
+URL = "meet-the-team/"
+weight = 5
+
+[[main]]
+name = "Blog"
+URL = "blog/"
+weight = 6
+
+[[main]]
+name = "Contact"
+URL = "contact/"
+weight = 9
+
+
+
+#Footer menu
+[[footer]]
+name = "Company History"
+URL = "about/"
+
+[[footer]]
+name = "About us"
+URL = "about/"
+
+[[footer]]
+name = "Contact us"
+URL = "contact/"
+
+[[footer]]
+name = "Services"
+URL = "service/"
+
+[[footer]]
+name = "Privacy Policy"
+URL = "#"
