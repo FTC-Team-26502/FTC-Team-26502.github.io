@@ -2,7 +2,6 @@
     <h1>Our Events</h1>
     <p>Check out details of our past and upcoming events below!</p>
     <h1>Past Events</h1>
-    
     <!-- Events List -->
     <div class="events-list">
       <!-- Event 2 -->

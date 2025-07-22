@@ -1,7 +1,6 @@
   <section class="robot-section">
     <h1>BRB Robotics</h1>
     <p>FTC Team #26502: Designing, Building, and Programming Competitive Robots</p>
-    
     <div class="robot-showcase">
       <h2>Meet Our Current Robot</h2>
       <p>Our latest creation for the FTC CENTERSTAGE challenge!</p>
@@ -15,7 +14,6 @@
       <p>Our robot features a precision intake system, articulated arm, and autonomous navigation with computer vision.</p>
       <a href="#" class="details-button">View Robot Gallery</a>
     </div>
-    
     <div class="robot-photo-gallery">
       <h2>Robot Evolution</h2>
       <div class="gallery-tabs">
@@ -23,8 +21,7 @@
         <div class="gallery-tab" onclick="showPhotoTab('version2')">Version 2</div>
         <div class="gallery-tab" onclick="showPhotoTab('version3')">Version 3</div>
         <div class="gallery-tab" onclick="showPhotoTab('drivebase')">Custom CAD Drivebase</div>
-      </div>
-      
+      </div> 
       <div class="photo-container active" id="version1">
         <div class="photo-placeholder">
           <p>BRB Robotics - Version 1 Photo</p>
@@ -40,28 +37,23 @@
           <p>While Version 1 had limited capabilities, it established our foundation for more advanced iterations and proved reliable in competition with minimal failures.</p>
         </div>
       </div>
-      
       <div class="photo-container" id="version2">
         <div class="photo-placeholder">
           <p>BRB Robotics - Version 2 Photo</p>
         </div>
         <div class="design-section">
           <h3>V2 Robot Design Specifications</h3>
-          
           <h4>Structural Design</h4>
           <p><strong>Chassis:</strong> Our robot features a compact 13.5" by 15" chassis to maximize maneuverability around the submersible.</p>
           <p><strong>Tradeoff Analysis:</strong> A bigger chassis would allow us to add a second Viper slide to attempt level 2 or 3 ascent, but a smaller chassis would have better maneuverability. We decided to sacrifice the 30 points from a third-level ascent, but we believe we can score four high-chamber specimens and a first-level ascent, which equals 43, with a smaller robot.</p>
-          
           <h4>Drive Train</h4>
           <p>We implemented gearboxes with miter gears, allowing us to position one drive motor horizontally within a U-channel while mounting the other three vertically. This configuration provides robust structural support for our side panels.</p>
           <p><strong>Tradeoff Analysis:</strong> One front motor and the back motors placed vertically help us with a better weight distribution. This configuration limits the space available for the intake arm.</p>
-          
           <h4>Intake</h4>
           <p>The intake uses a 3D-printed claw with a wrist on a rotating arm, connected to a viper slide moved by a 3D-printed scissor lift powered by a 188:1 motor.</p>
           <p><strong>Tradeoff Analysis:</strong> Because our small driving base limits space, we used the highest torque available from goBILDA instead of gearboxes to decrease speed. The high-torque motor makes it easier to control the extension of the horizontal slide.</p>
           <p>We built a goBILDA 4-stage viper slide with a 3D-printed claw and wrist mounted on a rotating arm to score samples in the high basket.</p>
           <p><strong>Lessons learned:</strong> the steel goBILDA viper slides add significant weight; therefore, we can not achieve a level 2 ascent or higher. Instead, we focused on designing a small and agile driving base, as well as quick specimen and sample cycles. We plan to fundraise and buy MISUMI slides made of aluminum and thus much lighter next year.</p>
-          
           <h4>Hardware Failures and Weight Distribution</h4>
           <p>We have made many changes to accommodate different problems encountered during our robot design version 2.</p>
           <ul>
@@ -70,14 +62,12 @@
             <li>The switch to 4-bar pods offered several advantages. These new pods are more compact and retract vertically inside the U-channel, making them less prone to damage and easier to manage. However, they are not without drawbacks. One issue is that the wires tend to rub against the mounting U-channel, which could lead to wear over time. The most significant drawback, however, was the need to retune the PID controllers. This process proved time-consuming and required considerable effort to ensure the robot performed optimally with the new odometry system.</li>
             <li>We replaced one of our drive train's motors due to it breaking.</li>
           </ul>
-          
           <p>We have had some issues with the weight distribution throughout the robot. Over time, the weight of the horizontal viper slide combined with crashing into the field walls and the submersible, and the front wheels started to lose contact with the ground.</p>
           <ul>
             <li>We mounted one of the front motors vertically to concentrate its weight above the wheel.</li>
             <li>We moved the battery to the front.</li>
             <li>We added an Omni wheel to the back of the robot to support some of the weight of the vertical slide.</li>
           </ul>
-          
           <h4>Odometry and Path Planning</h4>
           <p>We evolved our autonomous navigation through three major stages:</p>
           <ol>
@@ -90,9 +80,7 @@
             </li>
             <li><strong>Road Runner Integration:</strong> Adopted the Road Runner library based on mentor advice. The tuning process involved multiple opmodes and parameter adjustments, guided by official documentation and Team 21225 Shear Force's videos.</li>
           </ol>
-          
           <p>To best complement the capabilities of our alliance partners, we created two main autonomous programs. The first program collects the alliance-neutral blocks and scores them into the high basket. The second program moves three samples into the observation zone and hangs five specimens in the high chamber.</p>
-          
           <h4>First Program Pseudocode</h4>
           <ul>
             <li>Start: robot on the center-left with preloaded alliance neutral sample.</li>
@@ -108,7 +96,6 @@
             </li>
             <li>Drive to the submersible for first-level ascent.</li>
           </ul>
-          
           <h4>Second Program Pseudocode</h4>
           <ul>
             <li>Start: robot on the center-right with the preloaded specimen in alliance color.</li>
@@ -130,17 +117,14 @@
             </li>
             <li>Drive to the observation zone.</li>
           </ul>
-          
           <h4>Color Sensors and Indicator Lights</h4>
           <p>We added a color sensor to our claw to prevent grabbing the wrong color. We coded the color sensor to read the sample color (red, blue, and yellow) and close if the sample's color matched the target color.</p>
           <p>We are ready to collaborate with our alliance partners to score either samples in the high basket or specimens in the high chambers. If our role is to score specimens, the claw will only close on blocks matching the alliance color. Conversely, if our role is to score samples, the claw will close on blocks of either alliance or neutral colors.</p>
           <p>When the color sensor detects a block of alliance or neutral color, the indicator lights will illuminate to display the detected color.</p>
-          
           <h4>Webcam and AI</h4>
           <p>Initially, we mounted the Logitech C270 Webcam to the intake claw. However, the images captured were unfocused and did not provide sufficient visibility of the block for training the machine-learning model. Next, we mounted the camera to the end of the horizontal viper slide to address the camera's fixed focus and limited field of view. After collecting several pictures, we realized that even though the images were less blurry and captured more of the field, we could not capture angles that would clearly show the claw position relative to the block. We decided to invest in a better camera that we believed would make it more likely to capture images to train our AI successfully.</p>
           <p>After careful consideration, we decided to buy a wide-angle ELP High-Speed Wide Angle Global Shutter USB Camera Module. The images we captured with this camera were well-suited for training a machine language model.</p>
           <p><strong>Initial Plan:</strong> Our initial approach was to train a machine learning model that would take an image as input and output the target positions for the three servos controlling the intake claw. However, after visiting the Collaborative Robotics Lab at UVa and receiving feedback on our idea, we decided to switch to a pose detection approach. This new method involved detecting the orientation of a sample and calculating the servo commands based on those detections. Unfortunately, we could not implement and code this approach due to the significant amount of time spent repairing the robot.</p>
-          
           <h4>Driver Controlled Enhancements</h4>
           <p>To minimize the effort made by our drivers, we implemented the following:</p>
           <ul>
@@ -152,7 +136,6 @@
           </ul>
         </div>
       </div>
-      
       <div class="photo-container" id="version3">
         <div class="photo-placeholder">
           <p>BRB Robotics - Version 3 Photo (Current)</p>
@@ -170,15 +153,12 @@
           <p>Version 3 incorporates everything we learned throughout the season and represents thousands of engineering hours. This robot has successfully competed at the state championship and is headed to the World Championship event!</p>
         </div>
       </div>
-      
       <div class="photo-container" id="drivebase">
         <h3>Custom CAD Drivebase</h3>
-        
         <div class="cad-model-container">
           <div class="model-instructions">Click and drag to rotate | Right-click to pan | Scroll to zoom</div>
           <canvas id="renderCanvas" touch-action="none"></canvas>
         </div>
-        
         <div class="photo-description">
           <p>This is our custom-designed drivebase for next season created using CAD software. Key features include:</p>
           <ul>
@@ -191,7 +171,6 @@
         </div>
       </div>
     </div>
-    
     <p>BRB Robotics #26502 is dedicated to engineering excellence and competing at the highest levels in FTC!</p>
   </section>
 

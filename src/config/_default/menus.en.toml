@@ -1,10 +1,10 @@
 ############# English navigation ##############
 # main menu    
 
-[[main]]
-name = "FTC Team 26502"
-URL = "#"
-weight = 1
+# [[main]]
+# name = "FTC Team 26502"
+# URL = "#"
+# weight = 1
 
 [[main]]
 name = "Donations"
@@ -21,15 +21,22 @@ name = "Outreach"
 URL = "outreach/"
 weight = 4
 
+
 [[main]]
 name = "Meet the Team"
 URL = "meet-the-team/"
 weight = 5
 
+
+[[join]]
+name = "Join"
+url = "join-use"
+weight = 6
+
 [[main]]
 name = "Blog"
 URL = "blog/"
-weight = 6
+weight = 7
 
 [[main]]
 name = "Contact"
@@ -40,21 +47,9 @@ weight = 9
 
 #Footer menu
 [[footer]]
-name = "Company History"
-URL = "about/"
-
-[[footer]]
-name = "About us"
-URL = "about/"
+name = "Join Us"
+URL = "join-us/"
 
 [[footer]]
 name = "Contact us"
 URL = "contact/"
-
-[[footer]]
-name = "Services"
-URL = "service/"
-
-[[footer]]
-name = "Privacy Policy"
-URL = "#"
