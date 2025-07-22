@@ -1,0 +1,89 @@
+<!-- Tickets Section -->
+ 
+
+
+<div class="py-16 border-b border-border dark:border-darkmode-border gap-y-6">
+    
+    {{ range $page := where .Site.Pages "Type" "donations" }}
+        
+      {{ with $page.Params.donation_items }}
+
+      <h1>{{ $page.Params.title }}</h1>
+      
+      <p>{{$page.Params.description}}</p>
+      <h2>Donations</h2>
+      <p>{{ $page.Params.custom_donation}}</p>
+      <div class="donation-holder">
+            <stripe-buy-button
+                buy-button-id="buy_btn_1RmIhFH5BRP1wdS7nl67gYXO"
+                publishable-key="pk_live_51Rbp2lH5BRP1wdS75rdUMgAAaThFPGMhf0qPhWWmEOVY6YT59LIznmg2sPdjY50dCF2XcDEtjYlrp1UrugR8ND4b00nnTB7iTl"
+                >
+            </stripe-buy-button>
+      </div>
+            
+        
+        <h2>{{ $page.Params.secondary}}</h2>
+      
+      <div class="donation-holder">
+        {{ range $index, $donation := $page.Params.donation_items }}
+        <div
+          class="  ">
+          <div
+            class="donation-card 
+            bg-light dark:bg-darkmode-light/90 text-text-dark dark:text-darkmode-text-dark">
+            <div class="donation-item-header">
+              <h3>{{ $donation.title}}</h3>
+              <!-- <p class="{{ if eq $index ( sub ( $page.Params.donation_items | len )  0) }}text-text-light dark:!text-text-dark{{ end }}">{{ $donation.description }}</p> -->
+            </div>
+            <div class="donation-item-body">
+              <h2>
+                ${{ $donation.price }}
+              </h2>
+                
+              <ul>
+                {{ range $donation.donation_feature }}
+                <li>
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g opacity="0.5">
+                      <path
+                        d="M3.125 11.25L7.5 15.625L17.5 5.625"
+                        class=""
+                        style="color:black"
+                        stroke-width="1.8"
+                        stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    </g>
+                  </svg>
+                  {{ . }}
+                </li>
+                {{ end }}
+              </ul>
+            </div>
+            <div class="donation-item-footer">
+              {{ if $donation.stripe_id }}
+                {{ partial "stripe-checkout-button" . }}
+              {{ else }}
+                <script async
+                    src="https://js.stripe.com/v3/buy-button.js">
+                  </script>
+
+                  <stripe-buy-button
+                    buy-button-id="buy_btn_1RmIhFH5BRP1wdS7nl67gYXO"
+                    publishable-key="pk_live_51Rbp2lH5BRP1wdS75rdUMgAAaThFPGMhf0qPhWWmEOVY6YT59LIznmg2sPdjY50dCF2XcDEtjYlrp1UrugR8ND4b00nnTB7iTl"
+                  >
+                  </stripe-buy-button>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+        {{ end }}
+    </div>
+      {{end}}
+    {{ end }}
+  </div>
+  

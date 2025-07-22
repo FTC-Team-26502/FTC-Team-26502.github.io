@@ -26,6 +26,56 @@ $font-secondary: '{{ replaceRE ":[ital,]*wght@[0-9,;]+" "" .font_secondary }}', 
 $font-icon: '{{.font_icon}}';
 {{ end }}
 
+.donation-holder {
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    width:100%;
+    align-items:center;
+    justify-content:center;
+}
+.donation-card {
+  // @apply flex flex-col rounded-sm p-9 h-full; /* Flexbox layout */
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content:space-between;
+  width:375px;
+  height:375px;
+  margin:5px;
+  padding:10px;
+  .donation-item-header {
+    
+    h3 {
+      
+    }
+    p {
+      
+    }
+  }
+  .donation-item-body {
+    align-items:center;
+    justify-content:center;
+    h2 {
+      text-align:center;
+      span {
+        
+      }
+    }
+    ul {
+      li {
+        
+        svg {
+          
+        }
+      }
+    }
+  }
+  .donation-item-footer {
+    justify-content:center;
+  }
+}
+
 @import 'templates/bootstrap';
 @import 'mixins';
 @import 'typography';
