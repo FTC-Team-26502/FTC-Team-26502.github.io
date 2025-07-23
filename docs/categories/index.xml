@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on BRB Robotics | FTC Team 26502 | Charlottesville, Virginia</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://brbrobotics.org/categories/</link>
     <description>Recent content in Categories on BRB Robotics | FTC Team 26502 | Charlottesville, Virginia</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 10 Apr 2019 09:51:57 +0600</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://brbrobotics.org/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Afiliated Marketing</title>
-      <link>http://localhost:1313/categories/afiliated-marketing/</link>
+      <link>https://brbrobotics.org/categories/afiliated-marketing/</link>
       <pubDate>Wed, 10 Apr 2019 09:51:57 +0600</pubDate>
-      <guid>http://localhost:1313/categories/afiliated-marketing/</guid>
+      <guid>https://brbrobotics.org/categories/afiliated-marketing/</guid>
       <description></description>
     </item>
     <item>
       <title>Development Maping</title>
-      <link>http://localhost:1313/categories/development-maping/</link>
+      <link>https://brbrobotics.org/categories/development-maping/</link>
       <pubDate>Wed, 10 Apr 2019 09:51:57 +0600</pubDate>
-      <guid>http://localhost:1313/categories/development-maping/</guid>
+      <guid>https://brbrobotics.org/categories/development-maping/</guid>
       <description></description>
     </item>
     <item>
       <title>Investment Planning</title>
-      <link>http://localhost:1313/categories/investment-planning/</link>
+      <link>https://brbrobotics.org/categories/investment-planning/</link>
       <pubDate>Wed, 10 Apr 2019 09:51:57 +0600</pubDate>
-      <guid>http://localhost:1313/categories/investment-planning/</guid>
+      <guid>https://brbrobotics.org/categories/investment-planning/</guid>
       <description></description>
     </item>
     <item>
       <title>Market Strategy</title>
-      <link>http://localhost:1313/categories/market-strategy/</link>
+      <link>https://brbrobotics.org/categories/market-strategy/</link>
       <pubDate>Wed, 10 Apr 2019 09:51:57 +0600</pubDate>
-      <guid>http://localhost:1313/categories/market-strategy/</guid>
+      <guid>https://brbrobotics.org/categories/market-strategy/</guid>
       <description></description>
     </item>
     <item>
       <title>Targated Marketing</title>
-      <link>http://localhost:1313/categories/targated-marketing/</link>
+      <link>https://brbrobotics.org/categories/targated-marketing/</link>
       <pubDate>Wed, 10 Apr 2019 09:51:57 +0600</pubDate>
-      <guid>http://localhost:1313/categories/targated-marketing/</guid>
+      <guid>https://brbrobotics.org/categories/targated-marketing/</guid>
       <description></description>
     </item>
     <item>
       <title>Valuable Idea</title>
-      <link>http://localhost:1313/categories/valuable-idea/</link>
+      <link>https://brbrobotics.org/categories/valuable-idea/</link>
       <pubDate>Wed, 10 Apr 2019 09:51:57 +0600</pubDate>
-      <guid>http://localhost:1313/categories/valuable-idea/</guid>
+      <guid>https://brbrobotics.org/categories/valuable-idea/</guid>
       <description></description>
     </item>
   </channel>

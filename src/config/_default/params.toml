@@ -13,7 +13,7 @@ logo_width = "148px"
 logo_webp = true
 
 # logo text will only show when logo is missing.
-logo_text = "Agico"
+logo_text = "BRB Robotics"
 
 # purgeCSS
 purge_css = true
@@ -38,33 +38,33 @@ google_adsense = ""     # example: ca-pub-xxxxxxxxxxxxxxxx
 custom_script = ""
 
 # copyright
-theme_copyright = true
+theme_copyright = false
 
 # Preloader
 [preloader]
-enable = true
+enable = false
 preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 
 # Navigation button
 [navigation_button]
-enable = true
+enable = false
 label = "sign up"
 link = "#"
 
 # contact info
 [contact_info]
-address = "9567 Turner Trace Apt. 466 North Willie, BC C3G8A4"
-mobile = "+211234565523"
-email = "info@agico.com"
+address = "2171 Ivy Road, Suite 5, Charlottesville, VA 22903"
+mobile = "+(434) 688-6119"
+email = "TODO"
 
 # google_map
 [google_map]
-enable = true
-embed_url = "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d193559.60513193885!2d-74.07513185946965!3d40.709896425630156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1677481601686!5m2!1sen!2sbd"
+enable = false
+embed_url = ""
 
 # Subscription
 [subscription]
-enable = true
+enable = false
 # mailchimp subsciption
 mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
 mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
@@ -77,9 +77,9 @@ crisp_website_id = "9aa449e1-9999-422a-938f-8567982eec6d" # replace this code wi
 
 # seo meta data for OpenGraph / Twitter Card
 [metadata]
-keywords = ["Agico", "Hugo", "Themefisher", "GetHugoThemes"]
-description = "This is meta description"
-author = "GetHugoThemes"
+keywords = ["FTC", "FIRST", "BRB Robotics", "Robotics", "STEM", "Education"]
+description = "FTC Team 26502 is dedicated to building robots and inspiring the next generation of STEM innovators."
+author = "BRB Robotics"
 image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
 
 # matomo tracking: see https://matomo.org/
@@ -113,7 +113,7 @@ mastodon = "" # Your verification code
 
 # cookies
 [cookies]
-enable = true
+enable = false
 expire_days = 2
 content = "This site uses cookies. By continuing to use this website, you agree to their use."
 button = "I Accept"

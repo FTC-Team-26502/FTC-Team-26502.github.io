@@ -6,26 +6,10 @@
       <div class="container">
         <div class="row" data-aos="fade-in" data-aos-delay="1">
           <div class="col-lg-7">
-            <h1 class="text-white position-relative">{{ .Title }}<span class="watermark-sm">{{ .Params.Watermark
+            <h1 class="text-light-green position-relative">{{ .Title }}<span class="watermark-sm">{{ .Params.Watermark
                 }}</span>
             </h1>
-            {{ with .Params.Description }}<p class="text-white pt-4 pb-4">{{ . | markdownify }}</p>{{ end }}
-          </div>
-          <div class="col-lg-3 ms-auto align-self-end">
-            <nav class="position-relative zindex-1" aria-label="breadcrumb">
-              <ol class="breadcrumb justify-content-sm-end bg-transparent">
-                <li class="breadcrumb-item">
-                  <a href="{{ .Site.BaseURL | relLangURL }}" class="text-white">{{ with .Site.Params.Home }} {{ . }} {{
-                    end
-                    }}</a>
-                </li>
-                {{ if or (eq .Section "post") (eq .Section "blog") (eq .Section "career") }}
-                <li class="breadcrumb-item text-white" aria-current="page">{{ .Params.watermark }}</li>
-                {{ else }}
-                <li class="breadcrumb-item text-white" aria-current="page">{{ .Title }}</li>
-                {{ end }}
-              </ol>
-            </nav>
+            {{ with .Params.Description }}<p class="text-green pt-4 pb-4">{{ . | markdownify }}</p>{{ end }}
           </div>
         </div>
       </div>

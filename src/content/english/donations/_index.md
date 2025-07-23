@@ -4,8 +4,7 @@ description: Your contributions help our FIRST Tech Challenge team build robots,
 
 secondary: Our Rubber Duck Sponsorship Levels
 
-custom_donation: Enter your preferred donation amount to support our FTC robotics team!
-
+custom_donation: Enter your preferred donation amount to support our FTC robotics team or choose one of our sponsorship levels!
 
 donation_items: 
   - title: "Just Quacking By"

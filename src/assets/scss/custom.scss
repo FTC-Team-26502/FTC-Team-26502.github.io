@@ -36,6 +36,16 @@ section.hero-area h1 {
 }
 
 
+.text-dark-green {
+    --bs-text-opacity: 1;
+    color: rgba(var($dark-green), var(--bs-text-opacity)) !important;
+}
+
+.text-light-green {
+    --bs-text-opacity: 1;
+    color: rgba(var($light-green), var(--bs-text-opacity)) !important;
+}
+
 // h1 {
 //   color: #007c11;
 //   margin-bottom: 1rem;

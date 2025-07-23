@@ -17,8 +17,8 @@ URL = "robot/"
 weight = 3
 
 [[main]]
-name = "Outreach"
-URL = "outreach/"
+name = "Events"
+URL = "events/"
 weight = 4
 
 
@@ -30,13 +30,13 @@ weight = 5
 
 [[join]]
 name = "Join"
-url = "join-use"
+url = "join-us"
 weight = 6
 
-[[main]]
-name = "Blog"
-URL = "blog/"
-weight = 7
+# [[main]]
+# name = "Blog"
+# URL = "blog/"
+# weight = 7
 
 [[main]]
 name = "Contact"
