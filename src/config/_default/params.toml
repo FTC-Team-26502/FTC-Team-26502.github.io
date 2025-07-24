@@ -145,10 +145,7 @@ icon = "fab fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons
 link = "#"
 
 ############################# Colors ##############################
-dark-pink = "#fd00d3"
-light-pink = "#ffdcfa"
-dark-green = "#159957"
-light-green = "#b7ffb0"
+
 
 # DON'T REMOVE THIS FILE.
 # This file is for render site varibles and plugins
@@ -171,6 +168,11 @@ text_light = "#fd00d3"
 text_color = "#000000"
 border_color = "#159957"
 border_light = "#ffdcfa"
+
+dark_pink = "#fd00d3"
+light_pink = "#ffdcfa"
+dark_green = "#159957"
+light_green = "#b7ffb0"
 
 # color_primary = "#007ac7"
 # color_secondary = "#00e0d8"

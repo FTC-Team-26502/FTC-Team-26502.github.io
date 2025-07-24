@@ -14,13 +14,13 @@
       <div class="collapse navbar-collapse text-center" id="navigation">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item">
-            <a class="nav-link text-nav-bar text-capitalize" href="{{ .Site.BaseURL | relLangURL }}">{{ .Site.Params.Home
+            <a class=" nav-link  text-capitalize" href="{{ .Site.BaseURL | relLangURL }}">{{ .Site.Params.Home
               }}</a>
           </li>
           {{ range .Site.Menus.main }}
           {{ if .HasChildren }}
           <li class="nav-item dropdown">
-            <a class="nav-link text-nav-bar text-capitalize dropdown-toggle" href="#" role="button"
+            <a class=" nav-link text-capitalize dropdown-toggle" href="#" role="button"
               data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               {{ .Name }}
             </a>
@@ -32,7 +32,7 @@
           </li>
           {{ else }}
           <li class="nav-item">
-            <a class="nav-link text-nav-bar text-capitalize" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+            <a class=" nav-link text-capitalize" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
           </li>
           {{ end }}
           {{ end }}
