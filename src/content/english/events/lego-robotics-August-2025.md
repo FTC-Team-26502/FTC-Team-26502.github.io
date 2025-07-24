@@ -6,10 +6,13 @@ page_header_image: ""
 description : "TODO"
 
 event_dates: 
+- 2025-08-09
 - 
+
 time: ""
 location: ""
 
 layout: "event"
 draft: false
 ---
+
