@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Events on BRB Robotics | FTC Team 26502 | Charlottesville, Virginia</title>
+    <link>https://brbrobotics.org/event/</link>
+    <description>Recent content in Events on BRB Robotics | FTC Team 26502 | Charlottesville, Virginia</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Apr 2019 09:51:57 +0600</lastBuildDate>
+    <atom:link href="https://brbrobotics.org/event/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Build, Code, Compete! Lego Robotics</title>
+      <link>https://brbrobotics.org/event/lego-robotics-august-2025/</link>
+      <pubDate>Wed, 10 Apr 2019 09:51:57 +0600</pubDate>
+      <guid>https://brbrobotics.org/event/lego-robotics-august-2025/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>FLL Explore Expo</title>
+      <link>https://brbrobotics.org/event/fll-expo-may-2025/</link>
+      <pubDate>Wed, 10 Apr 2019 09:51:57 +0600</pubDate>
+      <guid>https://brbrobotics.org/event/fll-expo-may-2025/</guid>
+      <description>&lt;!-- &#xD;&#xA;&lt;div class=&#34;event-item&#34;&gt;&#xD;&#xA;        &lt;h3&gt;FLL Explore Expo&lt;/h3&gt;&#xD;&#xA;        &lt;p&gt;&lt;strong&gt;Date:&lt;/strong&gt; May 4, 2025&lt;/p&gt;&#xD;&#xA;        &lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 2:00 PM - 4:00 PM&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>FLL Explore Expo</title>
+      <link>https://brbrobotics.org/event/fll-scrimmage-may-2025/</link>
+      <pubDate>Wed, 10 Apr 2019 09:51:57 +0600</pubDate>
+      <guid>https://brbrobotics.org/event/fll-scrimmage-may-2025/</guid>
+      <description>&lt;p align=&#34;left&#34;&gt;Come check out our local FIRST Lego League (FLL) scrimmage, where teams will battle it out in an exciting robot game! Watch as they put their creativity and engineering skills to the test on the field.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
