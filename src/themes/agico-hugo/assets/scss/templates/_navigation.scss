@@ -80,7 +80,7 @@
   .nav-item {
 
     .nav-link {
-      font-size: 16px;
+      font-size: 20px;
       font-weight: 500;
       padding: 20px 22px;
       font-family: $font-primary;
@@ -93,9 +93,9 @@
       @include desktop {
         padding: 10px 0;
       }
-
+      color: $dark-pink ;
       &.active {
-        color:"#5dffea" ;
+        color: $dark-green ;
       }
 
       &:hover {

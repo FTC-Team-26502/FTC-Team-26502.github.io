@@ -12,7 +12,7 @@ develop:
 
 clean:
 	rm -rf $(DESTINATION)
-	git checkout $(DESTINATION)
+	#git checkout $(DESTINATION)
 
 html: 
 	hugo  --destination $(DESTINATION) 

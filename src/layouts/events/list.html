@@ -12,10 +12,12 @@
   </div>
 </section>
 
-<!-- Events List -->
+<!-- Events List --><br>
 <div class="events-list">
   {{ range .Pages.ByDate.Reverse }}
-        <div class="event-item">
+        
+        
+        <div class="event-item event-{{  cond  ( ge 0 (sub  now.YearDay  .Params.date.YearDay ) ) "future" "old" }}">
             <h3>{{ .Title }}</h3>
         <p><strong>Date:</strong> {{ .Params.event_dates }}</p>
         <p><strong>Time:</strong> {{ .Params.time }}</p>
@@ -23,7 +25,7 @@
         <p align="left">{{ .Params.short_description }}</p>
         <a href="{{ .RelPermalink }}" class="event-button">Learn More</a>
         </div>
-  
+        
     {{ end }}
 </div>
 
