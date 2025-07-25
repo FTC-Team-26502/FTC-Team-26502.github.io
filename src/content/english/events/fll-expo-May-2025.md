@@ -1,8 +1,8 @@
 ---
 title: "FLL Explore Expo"
 date: 2019-04-10T09:51:57+06:00
-short_description: "TODO"
-page_header_image: ""
+short_description: "Join us in celebrating the remarkable work of our participating teams this season, and explore their amazing ocean-themed creations."
+page_header_image: "images/events/FLL_Expo.jpg"
 description : "Join us in celebrating the remarkable work of our participating teams this season, and explore their amazing ocean-themed creations."
 
 event_dates: 

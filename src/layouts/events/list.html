@@ -20,8 +20,8 @@
         <p><strong>Date:</strong> {{ .Params.event_dates }}</p>
         <p><strong>Time:</strong> {{ .Params.time }}</p>
         <p><strong>Location:</strong> {{ .Params.location }}</p>
-        <p align="left">{{ .Params.description }}</p>
-        <a href="  " class="event-button">Learn More</a>
+        <p align="left">{{ .Params.short_description }}</p>
+        <a href="{{ .RelPermalink }}" class="event-button">Learn More</a>
         </div>
   
     {{ end }}
