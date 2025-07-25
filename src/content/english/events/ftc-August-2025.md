@@ -1,22 +1,14 @@
 ---
-title: "Build, Code, Compete! Lego Robotics"
+title: "Robotics Building Workshop"
 date: 2019-04-10T09:51:57+06:00
-short_description: "TODO"
-page_header_image: ""
-description : "TODO"
-
-event_dates: 
-- 2025-08-09
-- 2025-16-09
-- 2025-23-09
-
-time: "1 PM to 3 PM"
-location: "Blue Ridge Boost: 2171 Ivy Rd, Charlottesville, VA 22903"
+short_description: "Join us to design, build, and program robots! Perfect for all skill levels, with hands-on activities and friendly competitions."
+page_header_image: "images/events/Rev_DriveBase.jpg"
+description : "You’ll design and build your own robots using fun hands-on activities. Work in teams to tackle challenges and see your creations come to life. The camp wraps up with a friendly competition where you can showcase your robots. It’s a great experience for everyone, whether you’re new to robotics or have some experience!"
 
 event_dates:
-- 2025-03-09
-- 2025-10-09
-- 2025-17-09
+- 2025-03-08
+- 2025-10-08
+- 2025-17-08
 
 time: "4 PM to 7 PM"
 location: "Blue Ridge Boost: 2171 Ivy Rd, Charlottesville, VA 22903"
@@ -28,7 +20,30 @@ layout: "events"
 draft: false
 ---
 
-<h1>FTC Robotics Camp Schedule Overview</h1>
+<h1>FTC Robotics Camp Overview</h1>
+
+<div>
+  Time: 1 pm - 5 pm 
+</div>
+
+<div>
+  Date: 3, 10, 17 of August 
+</div>
+
+<div>
+  Max participants: 10
+</div>
+
+<div>
+  Age: 7-10th graders
+</div>
+
+<div>
+  Entry Fee: $150
+</div>
+
+</br>
+<h1>FTC Robotics Camp Schedule</h1>
 
 <div class="day-section">
   </br>

@@ -13,17 +13,23 @@
 </section>
 
 <!-- Events List -->
-<div class="events-list">
+
+<div class="events-list container">
   {{ range .Pages.ByDate.Reverse }}
         <div class="event-item">
+            </br>
             <h3>{{ .Title }}</h3>
-        <p><strong>Date:</strong> {{ .Params.event_dates }}</p>
-        <p><strong>Time:</strong> {{ .Params.time }}</p>
-        <p><strong>Location:</strong> {{ .Params.location }}</p>
-        <p align="left">{{ .Params.short_description }}</p>
-        <a href="{{ .RelPermalink }}" class="event-button">Learn More</a>
+            <p><strong>Date:</strong>
+            {{ $count := len .Params.event_dates }} <!-- Get the total count -->
+            {{ range $index, $date := .Params.event_dates }}
+                {{ $date }}{{ if ne (add $index 1) $count }}, {{ end }} <!-- Add comma if not the last item -->
+            {{ end }}
+            </p>
+            <p><strong>Time:</strong> {{ .Params.time }}</p>
+            <p><strong>Location:</strong> {{ .Params.location }}</p>
+            <p align="left">{{ .Params.short_description }}</p>
+            <a href="{{ .RelPermalink }}" class="event-button">Learn More</a>
         </div>
-  
     {{ end }}
 </div>
 
