@@ -1,6 +1,6 @@
 ---
 title: "FLL Explore Expo"
-date: 2019-04-10T09:51:57+06:00
+date: 2025-05-04T09:51:57+06:00
 short_description: "TODO"
 page_header_image: ""
 description : "Join us in celebrating the remarkable work of our participating teams this season, and explore their amazing ocean-themed creations."
@@ -12,6 +12,12 @@ location: "Blue Ridge Boost, 2171 Ivy Road, Charlottesville, VA"
 
 layout: "event"
 draft: false
+event_pay:
+  name: "event button"
+  stripe_id: price_1RnoFRH5BRP1wdS75igV7ag7
+  button: Sign Up!
+  success_redirect: /events
+  
 ---
 
 <p align="left">Come check out our local FIRST Lego League (FLL) scrimmage, where teams will battle it out in an exciting robot game! Watch as they put their creativity and engineering skills to the test on the field.</p>

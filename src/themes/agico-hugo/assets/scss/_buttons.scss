@@ -171,3 +171,16 @@
     transition: ease 0.3s;
   }
 }
+
+.stripe_button {
+  filter: hue-rotate(120deg);
+}
+.BuyButton-Button {
+  filter: hue-rotate(30deg);
+  &:hover {
+    background-color:red !important;
+  }
+}
+.is-cardLayout {
+  background-color:orange !important;
+}

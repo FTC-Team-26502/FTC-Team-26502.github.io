@@ -448,7 +448,7 @@ iframe {
     opacity: 0.9;
 
     & > div {
-      padding: 220px 0 100px;
+      padding: 175px 0 20px;
     }
   }
 
@@ -646,5 +646,13 @@ textarea.form-control {
   code {
     margin-bottom: 0 !important;
     font-size: 100%;
+  }
+}
+
+
+.BuyButton-Button {
+  background-color:red !important;
+  &:hover {
+    background-color:red !important;
   }
 }

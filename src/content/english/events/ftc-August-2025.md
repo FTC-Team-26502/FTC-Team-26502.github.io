@@ -1,14 +1,19 @@
 ---
 title: "Robotics Building Workshop"
-date: 2019-04-10T09:51:57+06:00
+date: 2024-08-17T09:51:57+06:00
 short_description: "Join us to design, build, and program robots! Perfect for all skill levels, with hands-on activities and friendly competitions."
 page_header_image: "images/events/Rev_DriveBase.jpg"
 description : "You’ll design and build your own robots using fun hands-on activities. Work in teams to tackle challenges and see your creations come to life. The camp wraps up with a friendly competition where you can showcase your robots. It’s a great experience for everyone, whether you’re new to robotics or have some experience!"
 
 event_dates:
-- 2025-03-08
-- 2025-10-08
-- 2025-17-08
+- 2025-08-03
+- 2025-08-10
+- 2025-08-17
+event_pay:
+  name: "event button"
+  stripe_id: price_1RorMFH5BRP1wdS7f3E9VwN0
+  button: Sign Up!
+  success_redirect: /events
 
 time: "4 PM to 7 PM"
 location: "Blue Ridge Boost: 2171 Ivy Rd, Charlottesville, VA 22903"

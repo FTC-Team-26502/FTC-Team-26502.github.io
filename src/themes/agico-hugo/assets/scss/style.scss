@@ -33,16 +33,6 @@ $font-secondary: '{{ replaceRE ":[ital,]*wght@[0-9,;]+" "" .font_secondary }}', 
 $font-icon: '{{.font_icon}}';
 {{ end }}
 
-.text-dark-green {
-    --bs-text-opacity: 1;
-    color: rgba(var($dark-green), var(--bs-text-opacity)) !important;
-}
-
-.text-light-green {
-    --bs-text-opacity: 1;
-    color: rgba(var($light-green), var(--bs-text-opacity)) !important;
-}
-
 
 @import 'mixins';
 @import 'typography';

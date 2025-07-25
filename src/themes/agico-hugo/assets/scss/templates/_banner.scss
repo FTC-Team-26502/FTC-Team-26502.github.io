@@ -1,6 +1,6 @@
 // banner css start
 section.hero-area {
-  padding: 200px 0 175px;
+  padding: 150px 0 175px;
   background-position: bottom center !important;
 
   @include mobile-xs {
@@ -8,7 +8,7 @@ section.hero-area {
   }
 
   @include desktop-xl {
-    padding: 190px 0 155px;
+    padding: 150px 0 155px;
   }
 
   p {

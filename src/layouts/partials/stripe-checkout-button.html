@@ -35,8 +35,8 @@
        * Instead use one of the strategies described in
        * https://docs.stripe.com/payments/checkout/fulfill-orders
        */
-      successUrl: '{{ absURL ""}}/donations/',
-      cancelUrl: '{{ absURL ""}}/donations/',
+      successUrl: '{{ absURL ""}}/{{ .success_redirect | default "donations"}}/',
+      cancelUrl: '{{ absURL ""}}/{{ .cancel_redirect | default "donations"}}/',
     })
     .then(function (result) {
       if (result.error) {

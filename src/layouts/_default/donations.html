@@ -1,16 +1,8 @@
+
 {{ define "main" }}
 	<section class="section">
     	<div class="container">
-			<p>{{ .Params.custom_donation}}</p>
-			<script src="https://js.stripe.com/v3"></script>
-			<script async src="https://js.stripe.com/v3/buy-button.js"></script>
-			<div class="donation-holder">
-					<stripe-buy-button
-					buy-button-id="buy_btn_1RolucH5BRP1wdS777zEoATp"
-					publishable-key="pk_live_51Rbp2lH5BRP1wdS75rdUMgAAaThFPGMhf0qPhWWmEOVY6YT59LIznmg2sPdjY50dCF2XcDEtjYlrp1UrugR8ND4b00nnTB7iTl"
-					>
-					</stripe-buy-button>
-			</div>
+			
 			<h2>{{ .Params.secondary }}</h2>
 				<div class="donation-holder">
 					{{ range .Params.donation_items }}
@@ -31,10 +23,13 @@
 									{{ partial "stripe-checkout-button" . }}
 								{{ else }}
 									<script async src="https://js.stripe.com/v3/buy-button.js"></script>
-									<stripe-buy-button
-										buy-button-id="buy_btn_1RmIhFH5BRP1wdS7nl67gYXO"
-										publishable-key="pk_live_51Rbp2lH5BRP1wdS75rdUMgAAaThFPGMhf0qPhWWmEOVY6YT59LIznmg2sPdjY50dCF2XcDEtjYlrp1UrugR8ND4b00nnTB7iTl"	>
-									</stripe-buy-button>
+									<div class="stripe_button">
+										<stripe-buy-button
+											buy-button-id="buy_btn_1RmIhFH5BRP1wdS7nl67gYXO"
+											publishable-key="pk_live_51Rbp2lH5BRP1wdS75rdUMgAAaThFPGMhf0qPhWWmEOVY6YT59LIznmg2sPdjY50dCF2XcDEtjYlrp1UrugR8ND4b00nnTB7iTl"	>
+										</stripe-buy-button>
+										<br>
+									</div>
 								{{ end }}
 							</div>
 						</div>

@@ -1,14 +1,20 @@
 ---
 title: "Build, Code, Compete! Lego Robotics"
-date: 2019-04-10T09:51:57+06:00
+date: 2024-04-10T09:51:57+06:00
 short_description: "Join us for LEGO robotics fun! Build and compete with your own robots in teams. Perfect for all skill levels!"
 page_header_image: "images/events/Lego_Robotics.jpg"
 description : "Join us for an exciting week focused on LEGO robotics! You’ll work in teams to design and build your own LEGO robots for fun challenges. With guidance from experienced mentors, you'll explore teamwork and problem-solving skills while bringing your creations to life. The camp culminates in a thrilling competition where you can showcase your robots. Perfect for all skill levels—come build with us!"
 
 event_dates: 
-- 2025-09-08
-- 2025-16-08
-- 2025-23-08
+- 2025-08-09
+- 2025-08-16
+- 2025-08-23
+event_pay:
+  name: "event button"
+  stripe_id: price_1RnoFRH5BRP1wdS75igV7ag7
+  button: Sign Up!
+  success_redirect: /events
+  
 
 time: ""
 location: ""

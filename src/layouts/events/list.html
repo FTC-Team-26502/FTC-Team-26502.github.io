@@ -1,21 +1,8 @@
 {{ define "main" }}
 
-<section class="section">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <div class="content">
-          {{.Content }}
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
 <!-- Events List --><br>
 <div class="events-list">
-  {{ range .Pages.ByDate.Reverse }}
+  {{ range .Pages.ByDate }}
         
         
         <div class="event-item event-{{  cond  ( ge 0 (sub  now.YearDay  .Params.date.YearDay ) ) "future" "old" }}">
@@ -30,7 +17,14 @@
             <p><strong>Time:</strong> {{ .Params.time }}</p>
             <p><strong>Location:</strong> {{ .Params.location }}</p>
             <p align="left">{{ .Params.short_description }}</p>
-            <a href="{{ .RelPermalink }}" class="event-button">Learn More</a>
+            <div>
+              <a href="{{ .RelPermalink }}" class="event-button">Learn More</a>
+            </div>
+            
+            <div class="sign-up-button">
+                {{ partial "stripe-checkout-button.html" .Params.event_pay }}
+            </div>
+            
         </div>
     {{ end }}
 </div>
