@@ -232,8 +232,8 @@ iframe {
 
 // section
 .section {
-  padding-top: 140px;
-  padding-bottom: 140px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 
   @include desktop {
     padding-top: 100px;
@@ -371,11 +371,11 @@ iframe {
   li {
     a {
       i {
-        width: 46px !important;
+        width: 70px !important;
         padding: 13px;
-        height: 46px;
-        line-height: 46px;
-        color: $white;
+        height: 70px;
+        line-height: 70px;
+        color: $dark-pink;
         text-align: center;
         border: 2px solid $border-color;
         display: block;

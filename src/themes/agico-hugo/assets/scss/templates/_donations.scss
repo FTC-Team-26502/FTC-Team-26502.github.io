@@ -1,0 +1,50 @@
+
+.donation-holder {
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    width:100%;
+    align-items:center;
+    justify-content:center;
+}
+.donation-card {
+  // @apply flex flex-col rounded-sm p-9 h-full; /* Flexbox layout */
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content:space-between;
+  width:390px;
+  height:400px;
+  margin:5px;
+  padding:10px;
+  .donation-item-header {
+    
+    h3 {
+      color:#fd00d3;
+    }
+    p {
+      
+    }
+  }
+  .donation-item-body {
+    align-items:center;
+    justify-content:center;
+    h2 {
+      text-align:center;
+      span {
+        
+      }
+    }
+    ul {
+      li {
+        
+        svg {
+          
+        }
+      }
+    }
+  }
+  .donation-item-footer {
+    justify-content:center;
+  }
+}

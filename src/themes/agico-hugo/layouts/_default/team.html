@@ -1,12 +1,12 @@
 {{ define "main" }}
 
-{{"<!-- team -->" | safeHTML}}
+<!-- {{"team" | safeHTML}} -->
 <section class="section section-lg-bottom">
   <div class="container">
-    <div class="row">
+    <div class="row team-holder">
       {{ range $index, $element:= .Params.team_member }}
       {{ $delay := mul $index 200}}
-      {{"<!-- team member -->" | safeHTML}}
+      <!-- {{"team member" | safeHTML}} -->
       <div class="col-lg-4 col-md-6 mb-5" data-aos="fade-up" data-aos-delay="{{$delay}}">
         <div class="team-member text-center"> 
           {{ partial "image.html" (dict "Src" .image "Alt" .name  "Class" "w-100 rounded-sm" "Size" "450x") }}

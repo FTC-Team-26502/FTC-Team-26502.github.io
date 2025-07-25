@@ -12,13 +12,15 @@
   </div>
 </section>
 
-<!-- Events List -->
 
-<div class="events-list container">
+<!-- Events List --><br>
+<div class="events-list">
   {{ range .Pages.ByDate.Reverse }}
-        <div class="event-item">
-            </br>
-            <h3>{{ .Title }}</h3>
+        
+        
+        <div class="event-item event-{{  cond  ( ge 0 (sub  now.YearDay  .Params.date.YearDay ) ) "future" "old" }}">
+
+          <h3>{{ .Title }}</h3>
             <p><strong>Date:</strong>
             {{ $count := len .Params.event_dates }} <!-- Get the total count -->
             {{ range $index, $date := .Params.event_dates }}
