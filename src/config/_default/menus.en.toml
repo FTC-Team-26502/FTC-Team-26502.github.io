@@ -24,7 +24,7 @@ weight = 4
 
 [[main]]
 name = "Meet the Team"
-URL = "meet-the-team/"
+URL = "team"
 weight = 5
 
 

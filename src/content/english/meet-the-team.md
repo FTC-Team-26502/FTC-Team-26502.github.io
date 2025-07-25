@@ -18,7 +18,7 @@ draft: false
       <div class="card-container">
         <div class="team-card" onclick="flipCard(this)">
           <div class="card-side card-front">
-            <img src="/Images/Dorina.jpg" alt="Dorina Evans">
+            <img src="images/team/team-member-1.jpg" alt="Dorina Evans">
             <h3>Dorina Evans</h3>
             <p>Engineering and Coding Lead</p>
           </div>

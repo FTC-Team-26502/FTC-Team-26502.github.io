@@ -1,12 +1,12 @@
 ---
-title: "Build, Code, Compete! Lego Robotics"
-date: 2019-04-10T09:51:57+06:00
-short_description: "TODO"
+title: "WRO robotics"
+date: 2025-09-09
+short_description: "Class every sunday's until August 23!"
 page_header_image: ""
-description : "TODO"
+description : "More information below"
 
 event_dates: 
-- 2025-08-09
+- 2025-09-09
 - 
 
 time: ""
