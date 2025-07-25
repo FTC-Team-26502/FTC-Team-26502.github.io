@@ -20,10 +20,10 @@ $black: {{.black}};
 $white: {{.white}};
 $gray: {{.gray}};
 
-$dark-green: "#159957" ;
-$light-green: "#b7ffb0" ;
-$dark-pink: "#fd00d3" ;
-$light-pink: "#ffdcfa" ;
+$dark-green: #159957 ;
+$light-green: #b7ffb0 ;
+$dark-pink: #fd00d3 ;
+$light-pink: #ffdcfa ;
 
 // Font Variables
 $font-size: {{.font_size | default "16px"}};
@@ -43,56 +43,6 @@ $font-icon: '{{.font_icon}}';
     color: rgba(var($light-green), var(--bs-text-opacity)) !important;
 }
 
-.donation-holder {
-    display:flex;
-    flex-direction: row;
-    flex-wrap:wrap;
-    width:100%;
-    align-items:center;
-    justify-content:center;
-}
-.donation-card {
-  // @apply flex flex-col rounded-sm p-9 h-full; /* Flexbox layout */
-  display: flex;
-  flex-direction:column;
-  align-items: center;
-  justify-content:space-between;
-  width:375px;
-  height:375px;
-  margin:5px;
-  padding:10px;
-  .donation-item-header {
-    
-    h3 {
-      
-    }
-    p {
-      
-    }
-  }
-  .donation-item-body {
-    align-items:center;
-    justify-content:center;
-    h2 {
-      text-align:center;
-      span {
-        
-      }
-    }
-    ul {
-      li {
-        
-        svg {
-          
-        }
-      }
-    }
-  }
-  .donation-item-footer {
-    justify-content:center;
-  }
-}
-
 
 @import 'mixins';
 @import 'typography';
@@ -105,7 +55,10 @@ $font-icon: '{{.font_icon}}';
 @import 'templates/team';
 @import 'templates/blog';
 @import 'templates/footer';
+@import 'templates/donations';
+@import 'templates/events';
 @import 'preloader';
+
 
 {{ if site.Params.image_gallery }}
 @import 'gallery';
