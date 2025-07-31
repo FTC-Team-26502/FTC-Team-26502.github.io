@@ -3,7 +3,7 @@ title: "Contact"
 watermark: ""
 date: 2019-04-10T09:51:57+06:00
 short_description: "Cupidatat non proident sunt culpa qui officia deserunt mollit <br> anim idest laborum sed ut perspiciatis."
-page_header_image: "images/background/about.jpg"
+# page_header_image: 
 description : "Contact us with any questions or comments! We'd love to have you join the team!"
 
 layout: "contact"
