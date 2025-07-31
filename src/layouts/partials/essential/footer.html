@@ -10,7 +10,7 @@
           <p class="text-light mb-4">{{ site.Params.footer_content | markdownify }}</p>
           <ul class="list-inline social-icons">
             {{ range site.Params.social }}
-            <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="media-icon fa-2xl {{ .icon }}"></i> <span class="screen-reader-text">{{.title}}</span></a></li>
+            <li class="list-inline-item"><a href="{{ .link | safeURL }}" target="_blank" ><i class="media-icon fa-2xl {{ .icon }}"></i> <span class="screen-reader-text">{{.title}}</span></a></li>
             {{ end }}
           </ul>
         </div>
