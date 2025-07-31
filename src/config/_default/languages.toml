@@ -1,0 +1,13 @@
+################################### English language #####################################
+[en]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 1
+
+[en.params]
+home = "Home"
+# footer content
+footer_content = "BRB Robotics, FTC #26502"
+# copyright
+copyright = ""

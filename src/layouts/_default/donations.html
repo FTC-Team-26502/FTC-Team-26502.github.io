@@ -1,0 +1,41 @@
+
+{{ define "main" }}
+	<section class="section">
+    	<div class="container">
+			
+			<h2>{{ .Params.secondary }}</h2>
+				<div class="donation-holder">
+					{{ range .Params.donation_items }}
+						<div class="donation-card bg-light dark:bg-darkmode-light/90 text-text-dark dark:text-darkmode-text-dark">
+							<div class="donation-item-header">
+								<h3>{{ .title}}</h3>
+							</div>
+							<div class="donation-item-body">
+								<h2>${{ .price }}</h2>
+								<ul>
+									{{ range .donation_feature }}
+										<p> {{ . }} </p>
+									{{ end }}
+								</ul>
+							</div>
+							<div class="donation-item-footer">
+								{{ if .stripe_id }}
+									{{ partial "stripe-checkout-button" . }}
+								{{ else }}
+									<script async src="https://js.stripe.com/v3/buy-button.js"></script>
+									<div class="stripe_button">
+										<stripe-buy-button
+											buy-button-id="buy_btn_1RmIhFH5BRP1wdS7nl67gYXO"
+											publishable-key="pk_live_51Rbp2lH5BRP1wdS75rdUMgAAaThFPGMhf0qPhWWmEOVY6YT59LIznmg2sPdjY50dCF2XcDEtjYlrp1UrugR8ND4b00nnTB7iTl"	>
+										</stripe-buy-button>
+										<br>
+									</div>
+								{{ end }}
+							</div>
+						</div>
+					{{ end }}
+				</div>
+			</div>
+		</div>
+	</section>
+{{ end }}

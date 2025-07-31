@@ -1,0 +1,46 @@
+<!-- DNS Prefetch and Preconnect -->
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<link rel="preconnect" href="https://ajax.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+<link rel="preconnect" href="https://use.fontawesome.com" crossorigin="anonymous" />
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+<link rel="preconnect" href="https://www.googletagmanager.com" />
+<link rel="preconnect" href="https://www.google-analytics.com" />
+<link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+<link rel="dns-prefetch" href="https://connect.facebook.net" />
+<link rel="dns-prefetch" href="https://platform.linkedin.com" />
+<link rel="dns-prefetch" href="https://platform.twitter.com" />
+<link rel="stylesheet" crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+
+<!-- Plugins + Stylesheet -->
+{{ $styles := slice }}
+
+{{ range site.Params.plugins.css }}
+  {{ printf "%s" .}}
+  {{ if findRE "^http" .link }}
+    <link
+      crossorigin="anonymous"
+      media="all"
+      rel="stylesheet"
+      href="{{ .link }}"
+      {{ .attributes | safeHTMLAttr }} />
+  {{ else }}
+    {{ $resource := resources.Get .link }}
+    {{ if eq $resource.MediaType.Type "text/x-scss" }}
+      {{ $resource = $resource | css.Sass }}
+    {{ end }}
+    {{ $styles = $styles | append $resource }}
+  {{ end }}
+{{ end }}
+
+{{ $mainStyle := resources.Get "scss/style.scss" | resources.ExecuteAsTemplate "style.scss" . | css.Sass }}
+{{ $styles = $styles | append $mainStyle }}
+{{ $concatenatedStyles := $styles | resources.Concat "/css/style.css" }}
+
+<!-- Purge CSS in Production -->
+{{ if and hugo.IsProduction site.Params.purge_css }}
+  {{ $optimizedStyles := $concatenatedStyles | css.Sass | fingerprint "sha256" | resources.PostProcess }}
+  <link rel="stylesheet" href="{{ $optimizedStyles.Permalink }}" />
+{{ else }}
+  <link rel="stylesheet" href="{{ $concatenatedStyles.Permalink }}" />
+{{ end }}

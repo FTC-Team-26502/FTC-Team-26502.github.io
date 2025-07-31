@@ -1,0 +1,55 @@
+############# English navigation ##############
+# main menu    
+
+# [[main]]
+# name = "FTC Team 26502"
+# URL = "#"
+# weight = 1
+
+[[main]]
+name = "Donations"
+URL = "donations/"
+weight = 2
+
+[[main]]
+name = "Robot"
+URL = "robot/"
+weight = 3
+
+[[main]]
+name = "Events"
+URL = "events/"
+weight = 4
+
+
+[[main]]
+name = "Meet the Team"
+URL = "team"
+weight = 5
+
+
+[[join]]
+name = "Join"
+url = "join-us"
+weight = 6
+
+# [[main]]
+# name = "Blog"
+# URL = "blog/"
+# weight = 7
+
+[[main]]
+name = "Contact"
+URL = "contact/"
+weight = 9
+
+
+
+#Footer menu
+[[footer]]
+name = "Join Us"
+URL = "join-us/"
+
+[[footer]]
+name = "Contact us"
+URL = "contact/"

@@ -1,0 +1,36 @@
+{{ define "main" }}
+
+<!-- Events List --><br>
+<div class="events-list">
+  {{ range .Pages.ByDate }}
+        
+        
+        <div class="event-item event-{{  cond  ( ge 0 (sub  now.YearDay  .Params.date.YearDay ) ) "future" "old" }}">
+
+          <h3>{{ .Title }}</h3>
+            <p><strong>Date:</strong>
+            {{ $count := len .Params.event_dates }} <!-- Get the total count -->
+            {{ range $index, $date := .Params.event_dates }}
+                {{ $date }}{{ if ne (add $index 1) $count }}, {{ end }} <!-- Add comma if not the last item -->
+            {{ end }}
+            </p>
+            <p><strong>Time:</strong> {{ .Params.time }}</p>
+            <p><strong>Location:</strong> {{ .Params.location }}</p>
+            <p align="left">{{ .Params.short_description }}</p>
+            <div>
+              <a href="{{ .RelPermalink }}" class="event-button">Learn More</a>
+            </div>
+            
+            <div class="sign-up-button">
+                {{ partial "stripe-checkout-button.html" .Params.event_pay }}
+            </div>
+            
+        </div>
+    {{ end }}
+</div>
+
+{{ end }}
+
+
+
+
