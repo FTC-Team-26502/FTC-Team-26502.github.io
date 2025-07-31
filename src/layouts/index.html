@@ -14,9 +14,12 @@
 		{{ $eventDateParsed := time $eventDate }}
 		{{ if gt $eventDateParsed.Unix  now }}
 			<div class="home-event-item d-flex flex-column align-items-center justify-content-center">
-				<h6 href="{{ $page.RelPermalink }} "> 
-				{{ $page.Title}}
-				</h6>
+				
+        <h6 style="text-align: center;">
+          <a href="{{ $page.RelPermalink }}" style="text-decoration: none; color: inherit;">
+              {{ $page.Title }}
+          </a>
+        </h6>
 				<div>
 				<a href="{{ .RelPermalink }}" class="event-button">Learn More</a>
 				</div>

@@ -114,13 +114,6 @@
       <description>&lt;h3 id=&#34;elit-duied-aiusmod-tempor-did-labore-dolory&#34;&gt;Elit duied aiusmod tempor did labore dolory&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore&#xA;et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut&#xA;aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse&#xA;cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Meet the Team</title>
-      <link>https://brbrobotics.org/meet-the-team/</link>
-      <pubDate>Wed, 10 Apr 2019 09:51:57 +0600</pubDate>
-      <guid>https://brbrobotics.org/meet-the-team/</guid>
-      <description>&lt;section class=&#34;team-section&#34;&gt;&#xD;&#xA;    &lt;h1&gt;Our Story&lt;/h1&gt;&#xD;&#xA;    &lt;p&gt;Our FTC Team, BRB Robotics, 26502, started in 2024 with the support of Blue Ridge Boost. Our goal is to expand both our team and FIRST by educating and engaging with our community through demonstrations. Through these events, we hope to connect with potential teammates and sponsors who can help support our efforts.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Search Result</title>
       <link>https://brbrobotics.org/search/</link>
       <pubDate>Wed, 10 Apr 2019 09:51:57 +0600</pubDate>
@@ -174,14 +167,14 @@
       <link>https://brbrobotics.org/robot/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://brbrobotics.org/robot/</guid>
-      <description>&lt;section class=&#34;robot-section&#34;&gt;&#xD;&#xA;    &lt;h1&gt;BRB Robotics&lt;/h1&gt;&#xD;&#xA;    &lt;p&gt;FTC Team #26502: Designing, Building, and Programming Competitive Robots&lt;/p&gt;</description>
+      <description>&lt;section class=&#34;robot-section&#34;&gt;&#xD;&#xA;    &lt;h1&gt;Coming Soon!&lt;/h1&gt;&#xD;&#xA;  &lt;/script&gt;</description>
     </item>
     <item>
       <title>Our Team</title>
       <link>https://brbrobotics.org/join-us/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://brbrobotics.org/join-us/</guid>
-      <description></description>
+      <description>&lt;div class=&#34;section&#34;&gt;&#xD;&#xA;    &lt;h3&gt;What is FTC?&lt;/h3&gt;&#xD;&#xA;    &lt;p&gt;&#xD;&#xA;        FIRST Tech Challenge (FTC) is a global robotics program where students design, build, and program robots to compete in challenges. &#xD;&#xA;        It’s all about teamwork, creativity, and learning STEM skills while solving real-world problems! &lt;/br&gt;&#xD;&#xA;    &lt;/p&gt;</description>
     </item>
     <item>
       <title>Our Team</title>

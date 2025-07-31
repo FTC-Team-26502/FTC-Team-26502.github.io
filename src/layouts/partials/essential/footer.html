@@ -1,16 +1,15 @@
-{{"<!-- footer part start -->" | safeHTML }}
 <footer class="bg-secondary pt-5">
   <div class="section">
     <div class="container">
       <div class="row justify-content-between">
         <div class="col-md-5 mb-4 mb-md-0">
           <a href="{{ site.BaseURL | relLangURL }}" class="mb-4 d-inline-block">
-            {{ partial "logo.html" (dict "Alt" site.Title)}}
+            {{ partial "logo.html" (dict "Alt" site.Title) }}
           </a>
           <p class="text-light mb-4">{{ site.Params.footer_content | markdownify }}</p>
           <ul class="list-inline social-icons">
             {{ range site.Params.social }}
-            <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="media-icon fa-2xl {{ .icon }}"></i> <span class="screen-reader-text">{{.title}}</span></a></li>
+            <li class="list-inline-item"><a href="{{ .link | safeURL }}" target="_blank"><i class="media-icon fa-2xl {{ .icon }}"></i> <span class="screen-reader-text">{{ .title }}</span></a></li>
             {{ end }}
           </ul>
         </div>
@@ -23,19 +22,30 @@
           </ul>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6">
-          <h4 class="text-dark-green mb-4">{{ i18n "contact_info"}}</h4>
+          <h4 class="text-dark-green mb-4">{{ i18n "contact_info" }}</h4>
           <ul class="list-unstyled">
-            <li class="mb-3 text-light">{{site.Params.contact_info.address | safeHTML }}</li>
-            <li class="mb-3 text-light">{{site.Params.contact_info.mobile | safeHTML }}</li>
-            <li class="mb-3 text-light">{{site.Params.contact_info.email | safeHTML }}</li>
+            <li class="mb-3 text-light">{{ site.Params.contact_info.address | safeHTML }}</li>
+            <li class="mb-3 text-light">{{ site.Params.contact_info.mobile | safeHTML }}</li>
+            <li class="mb-3 text-light">{{ site.Params.contact_info.email | safeHTML }}</li>
           </ul>
+        </div>
+      </div>
+      
+      <!-- Sponsors Section -->
+      <div class="row mt-5">
+        <div class="col-12 text-center d-flex justify-content-center align-items-center">
+          <h4 class="text-light mb-0 mr-3">Thank You to Our Sponsors:</h4>
+          <img 
+            src="images/sponsors/BlueRidgeBoostLogo.png" 
+            alt="Blue Ridge Boost Logo" 
+            style="max-width: 100px; height: auto; border: 5px solid #ffffff00; border-radius: 5px;">
         </div>
       </div>
     </div>
   </div>
-  {{" <!-- footer part end -->" | safeHTML }}
+  {{ "<!-- footer part end -->" | safeHTML }}
 
-  {{" <!-- copyright part start -->" | safeHTML }} 
+  {{ "<!-- copyright part start -->" | safeHTML }}
   <div class="py-4">
     <div class="container">
       <div class="row">
@@ -50,8 +60,8 @@
         </div>
       </div>
     </div>
-  </div> 
-  {{" <!-- copyright part end -->" | safeHTML }}
+  </div>
+  {{ "<!-- copyright part end -->" | safeHTML }}
 </footer>
 
 {{ "<!-- Google Map API -->" | safeHTML }}

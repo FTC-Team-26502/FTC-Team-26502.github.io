@@ -16,8 +16,8 @@ event_pay:
   success_redirect: /events
   
 
-time: ""
-location: ""
+time: "1pm - 4pm"
+location: "Blue Ridge Boost: 2171 Ivy Rd, Charlottesville, VA 22903"
 
 layout: "event"
 draft: false

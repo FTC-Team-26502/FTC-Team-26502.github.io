@@ -9288,40 +9288,52 @@ section.hero-area h1, section.hero-area .h1 {
   background: #3682ff; }
 
 .team-holder {
-  justify-content: space-evenly; }
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  /* Ensures responsiveness */ }
 
 .team-member {
-  position: relative; }
+  display: flex;
+  flex-direction: column;
+  /* Stacks image and text vertically */
+  align-items: center;
+  /* Centers text horizontally */
+  text-align: center;
+  /* Centers text inside */
+  width: 300px;
+  /* Adjust as needed */
+  margin: 40px;
+  overflow: hidden;
+  /* Prevents content overflow */
+  background: #ffcce8;
+  /* Optional: Card background color */
+  border-radius: 10px;
+  /* Optional: Rounded corners */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  /* Optional: Subtle shadow */ }
 
-.team-member-name {
-  opacity: 1; }
-
-.team-member-designation {
-  opacity: 1; }
+.team-member img {
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid #ddd;
+  /* Divider between image and text */ }
 
 .team-member-content {
-  position: absolute;
-  height: 32%;
-  width: 80%;
-  left: 10%;
-  bottom: 10%; }
+  padding: 15px;
+  /* Adds spacing around text */ }
 
-.team-member-content::before {
-  position: absolute;
-  content: "";
-  height: 100%;
-  width: 80%;
-  background: linear-gradient(80deg, #159957 0%, #b7ffb0 100%);
-  bottom: 10%;
-  border-radius: 10px;
-  left: 10%; }
+.team-member-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 10px 0 5px;
+  /* Space above and below name */ }
 
-.team-member-social {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: -10%;
-  opacity: 0; }
+.team-member-designation {
+  font-size: 1rem;
+  color: #666;
+  /* Subtle color for designation text */
+  margin-bottom: 10px; }
 
 /* sidebar */
 .widget {

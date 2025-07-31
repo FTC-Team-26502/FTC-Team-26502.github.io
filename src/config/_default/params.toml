@@ -122,12 +122,12 @@ button = "I Accept"
 [[social]]
 title = "facebook"
 icon = "fab fa-facebook" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+link = "https://www.facebook.com/brbrobotics"
 
 [[social]]
 title = "instagram"
 icon = "fab  fa-instagram" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+link = "https://www.instagram.com/ftcteam26502brbrobotics/"
 
 [[social]]
 title = "github"
