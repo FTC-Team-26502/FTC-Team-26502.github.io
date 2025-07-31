@@ -588,50 +588,56 @@ style="background-image: url(/images/shape/page-title_hu_a3f1a522cca76acd.webp);
 
           
           <div class="sign-up-button">
-                
- 
+                <script src="https://js.stripe.com/v3/"></script>
 
 <button
   style="background-color:#159957;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em;cursor:pointer"
-  id="checkout-button-price_1RnoFRH5BRP1wdS75igV7ag7"
+  id="checkout-button"
   role="link"
   type="button"
-> 
-  
+>
   Sign Up!
-  
 </button>
 
-<div id="error-message"></div>
+<div id="error-message" style="color: red; margin-top: 10px;"></div>
 
 <script>
-(function() {
-  
-  var stripe = Stripe('pk_live_51Rbp2lH5BRP1wdS75rdUMgAAaThFPGMhf0qPhWWmEOVY6YT59LIznmg2sPdjY50dCF2XcDEtjYlrp1UrugR8ND4b00nnTB7iTl')
-  
-  var checkoutButton = document.getElementById(`checkout-button-price_1RnoFRH5BRP1wdS75igV7ag7`);
-  checkoutButton.addEventListener('click', function () {
-    alert('We got a donartion');
+  (function() {
     
+    var stripe = Stripe('pk_live_51Rbp2lH5BRP1wdS75rdUMgAAaThFPGMhf0qPhWWmEOVY6YT59LIznmg2sPdjY50dCF2XcDEtjYlrp1UrugR8ND4b00nnTB7iTl');
 
-    stripe.redirectToCheckout({
-      lineItems: [{price: "price_1RnoFRH5BRP1wdS75igV7ag7", quantity: 1}],
-      mode: 'payment',
+    
+    var checkoutButton = document.getElementById('checkout-button');
+
+    
+    checkoutButton.addEventListener('click', function() {
+      alert('Thank you for your support! Redirecting to checkout...');
+
       
+      console.log('Stripe initialized:', stripe);
+      console.log('Price ID:', "price_1RnoFRH5BRP1wdS75igV7ag7");
+      console.log('Success URL:', 'https:\/\/brbrobotics.org\//\/events/');
+      console.log('Cancel URL:', 'https:\/\/brbrobotics.org\//donations/');
 
-      successUrl: 'https:\/\/brbrobotics.org\//\/events/',
-      cancelUrl: 'https:\/\/brbrobotics.org\//donations/',
-    })
-    .then(function (result) {
-      if (result.error) {
-        
+      
+      stripe.redirectToCheckout({
+        lineItems: [{ price: "price_1RnoFRH5BRP1wdS75igV7ag7", quantity: 1 }], 
+        mode: 'payment',
+        successUrl: 'https:\/\/brbrobotics.org\//\/events/',
+        cancelUrl: 'https:\/\/brbrobotics.org\//donations/',
+      })
+      .then(function(result) {
+        if (result.error) {
+          
+          var displayError = document.getElementById('error-message');
+          displayError.textContent = result.error.message;
 
-        var displayError = document.getElementById('error-message');
-        displayError.textContent = result.error.message;
-      }
+          
+          console.error('Stripe Checkout Error:', result.error.message);
+        }
+      });
     });
-  });
-})();
+  })();
 </script>
           </div>
           <!-- 
@@ -644,50 +650,56 @@ style="background-image: url(/images/shape/page-title_hu_a3f1a522cca76acd.webp);
         <a href="/FLLExpo" class="event-button">Learn More</a>
       </div> -->
           <div class="sign-up-button">
-                
- 
+                <script src="https://js.stripe.com/v3/"></script>
 
 <button
   style="background-color:#159957;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em;cursor:pointer"
-  id="checkout-button-price_1RnoFRH5BRP1wdS75igV7ag7"
+  id="checkout-button"
   role="link"
   type="button"
-> 
-  
+>
   Sign Up!
-  
 </button>
 
-<div id="error-message"></div>
+<div id="error-message" style="color: red; margin-top: 10px;"></div>
 
 <script>
-(function() {
-  
-  var stripe = Stripe('pk_live_51Rbp2lH5BRP1wdS75rdUMgAAaThFPGMhf0qPhWWmEOVY6YT59LIznmg2sPdjY50dCF2XcDEtjYlrp1UrugR8ND4b00nnTB7iTl')
-  
-  var checkoutButton = document.getElementById(`checkout-button-price_1RnoFRH5BRP1wdS75igV7ag7`);
-  checkoutButton.addEventListener('click', function () {
-    alert('We got a donartion');
+  (function() {
     
+    var stripe = Stripe('pk_live_51Rbp2lH5BRP1wdS75rdUMgAAaThFPGMhf0qPhWWmEOVY6YT59LIznmg2sPdjY50dCF2XcDEtjYlrp1UrugR8ND4b00nnTB7iTl');
 
-    stripe.redirectToCheckout({
-      lineItems: [{price: "price_1RnoFRH5BRP1wdS75igV7ag7", quantity: 1}],
-      mode: 'payment',
+    
+    var checkoutButton = document.getElementById('checkout-button');
+
+    
+    checkoutButton.addEventListener('click', function() {
+      alert('Thank you for your support! Redirecting to checkout...');
+
       
+      console.log('Stripe initialized:', stripe);
+      console.log('Price ID:', "price_1RnoFRH5BRP1wdS75igV7ag7");
+      console.log('Success URL:', 'https:\/\/brbrobotics.org\//\/events/');
+      console.log('Cancel URL:', 'https:\/\/brbrobotics.org\//donations/');
 
-      successUrl: 'https:\/\/brbrobotics.org\//\/events/',
-      cancelUrl: 'https:\/\/brbrobotics.org\//donations/',
-    })
-    .then(function (result) {
-      if (result.error) {
-        
+      
+      stripe.redirectToCheckout({
+        lineItems: [{ price: "price_1RnoFRH5BRP1wdS75igV7ag7", quantity: 1 }], 
+        mode: 'payment',
+        successUrl: 'https:\/\/brbrobotics.org\//\/events/',
+        cancelUrl: 'https:\/\/brbrobotics.org\//donations/',
+      })
+      .then(function(result) {
+        if (result.error) {
+          
+          var displayError = document.getElementById('error-message');
+          displayError.textContent = result.error.message;
 
-        var displayError = document.getElementById('error-message');
-        displayError.textContent = result.error.message;
-      }
+          
+          console.error('Stripe Checkout Error:', result.error.message);
+        }
+      });
     });
-  });
-})();
+  })();
 </script>
           </div>
           
