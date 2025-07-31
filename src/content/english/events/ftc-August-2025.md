@@ -6,9 +6,9 @@ page_header_image: "images/events/Rev_DriveBase.jpg"
 description : "You’ll design and build your own robots using fun hands-on activities. Work in teams to tackle challenges and see your creations come to life. The camp wraps up with a friendly competition where you can showcase your robots. It’s a great experience for everyone, whether you’re new to robotics or have some experience!"
 
 event_dates:
-- 2025-08-03
 - 2025-08-10
 - 2025-08-17
+- 2025-08-24
 event_pay:
   name: "event button"
   stripe_id: price_1RorMFH5BRP1wdS7f3E9VwN0
@@ -32,11 +32,11 @@ draft: false
 </div>
 
 <div>
-  Date: 3, 10, 17 of August 
+  Date: 10, 17, 24 of August 
 </div>
 
 <div>
-  Max participants: 10
+  Max participants: 6
 </div>
 
 <div>
