@@ -9,18 +9,22 @@
       
       <i class="fa fa-star fa-xl" style="color:{{ $.Site.Params.variables.dark_pink }}"></i>
       <!-- Rrequire sorting out past events -->
-      {{ range $page := (where $.Site.RegularPages "Section" "events" ).Reverse }}
-      <div class="home-event-item d-flex flex-column align-items-center justify-content-center">
-        <h6 href="{{ $page.RelPermalink }} "> 
-          {{ $page.Title}}
-        </h6>
-        <div>
-          <a href="{{ .RelPermalink }}" class="event-button">Learn More</a>
-        </div>
-      </div>
-      {{ end }}
-      <i class="fa fa-star fa-xl" style="color:{{  $.Site.Params.variables.dark_pink }}"></i>
-    </div>
+	{{ range $page := (where $.Site.RegularPages "Section" "events" ).Reverse }}
+		{{ $eventDate := index $page.Params.event_dates 0 }}
+		{{ $eventDateParsed := time $eventDate }}
+		{{ if gt $eventDateParsed.Unix  now }}
+			<div class="home-event-item d-flex flex-column align-items-center justify-content-center">
+				<h6 href="{{ $page.RelPermalink }} "> 
+				{{ $page.Title}}
+				</h6>
+				<div>
+				<a href="{{ .RelPermalink }}" class="event-button">Learn More</a>
+				</div>
+			</div>
+		{{ end }}
+	{{ end }}
+	<i class="fa fa-star fa-xl" style="color:{{  $.Site.Params.variables.dark_pink }}"></i>
+	</div>
     
   </div>
   <div class="container">
