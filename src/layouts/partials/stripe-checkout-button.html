@@ -2,7 +2,7 @@
 
 <button
   style="background-color:#159957;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em;cursor:pointer"
-  id="checkout-button"
+  class="checkout-button"
   role="link"
   type="button"
 >
@@ -15,7 +15,6 @@
   (function() {
     // Initialize Stripe with your public key
     var stripe = Stripe('pk_live_51Rbp2lH5BRP1wdS75rdUMgAAaThFPGMhf0qPhWWmEOVY6YT59LIznmg2sPdjY50dCF2XcDEtjYlrp1UrugR8ND4b00nnTB7iTl');
-
     // Find the checkout button
     var checkoutButton = document.getElementById('checkout-button');
 
