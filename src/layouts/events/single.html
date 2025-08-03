@@ -7,12 +7,31 @@
         <div class="content">
 
           
+          
           <div class="sign-up-button">
-                {{ partial "stripe-checkout-button.html" .Params.event_pay }}
+            {{ if .Params.stripe_url }}
+              <div>
+                <a href = "{{ .Params.stripe_url }}" class="Sign-Up-Button">
+                  Sign Up!
+                </a>
+                </br>
+              </div>
+            {{ else }}
+              ERROR: stripe_url not defined
+            {{ end }}
           </div>
           {{ .Content }}
           <div class="sign-up-button">
-                {{ partial "stripe-checkout-button.html" .Params.event_pay }}
+            {{ if .Params.stripe_url }}
+              <div>
+                <a href = "{{ .Params.stripe_url }}" class="Sign-Up-Button">
+                  Sign Up!
+                </a>
+                </br>
+              </div>
+            {{ else }}
+              ERROR: stripe_url not defined
+            {{ end }}
           </div>
           <!-- {{.Params.page_header_image}} -->
           <!-- {{ partial "image.html" (dict "Src" .Params.page_header_image "Alt" "Rev Drivebase") }} -->

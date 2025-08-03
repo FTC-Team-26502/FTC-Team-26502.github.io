@@ -23,14 +23,28 @@
             <p><strong>Time:</strong> {{ .Params.time }}</p>
             <p><strong>Location:</strong> {{ .Params.location }}</p>
             <p align="left">{{ .Params.short_description }}</p>
-            <div>
-              <a href="{{ .RelPermalink }}" class="event-button">Learn More</a>
-            </div>
             
-            <div class="sign-up-button">
-                {{ partial "stripe-checkout-button.html" .Params.event_pay }}
+            <div class="button-group">
+              <div class="learn-more-button">
+                <div>
+                    <a href="{{ .RelPermalink }}" class="event-button">Learn More</a>
+                </div>
+              </div>
+              
+              <div class="sign-up-button">
+                  {{ if .Params.stripe_url }}
+                    <div>
+                      <a href = "{{ .Params.stripe_url }}" class="Sign-Up-Button">
+                        Sign Up!
+                      </a>
+                      </br>
+                    </div>
+                  {{ else }}
+                    ERROR: stripe_url not defined
+                  {{ end }}
+              </div>
             </div>
-            
+          
         </div>
     {{ end }} 
     {{ end }}
@@ -72,7 +86,3 @@
 </div>
 
 {{ end }}
-
-
-
-

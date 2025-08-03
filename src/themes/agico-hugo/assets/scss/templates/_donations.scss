@@ -44,7 +44,8 @@
       }
     }
   }
-  .donation-item-footer {
-    justify-content:center;
+   .donation-item-footer {
+    margin-top: auto; /* Push the footer to the bottom */
+    padding-bottom: 20px; /* Space between footer content and card edge */
   }
 }

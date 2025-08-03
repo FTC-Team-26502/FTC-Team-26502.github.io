@@ -5,6 +5,7 @@ short_description: "Join us for LEGO robotics fun! Build and compete with your o
 page_header_image: "images/events/Lego_Robotics.jpg"
 description : "Join us for an exciting week focused on LEGO robotics! You’ll work in teams to design and build your own LEGO robots for fun challenges. With guidance from experienced mentors, you'll explore teamwork and problem-solving skills while bringing your creations to life. The camp culminates in a thrilling competition where you can showcase your robots. Perfect for all skill levels—come build with us!"
 
+stripe_url: https://buy.stripe.com/cNiaEXcvMdmbaOQaJYcIE01
 event_dates: 
 - 2025-08-09
 - 2025-08-16

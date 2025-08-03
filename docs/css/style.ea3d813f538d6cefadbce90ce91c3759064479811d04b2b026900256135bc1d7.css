@@ -8338,6 +8338,27 @@ h2,
   /* Smooth hover transition */
   margin-bottom: 10px; }
 
+.Sign-Up-Button {
+  background-color: #ff7af8;
+  /* Nice green color */
+  color: white;
+  /* White text */
+  padding: 12px 20px;
+  /* Padding for a comfortable click area */
+  font-size: 16px;
+  /* Readable font size */
+  font-weight: bold;
+  /* Bold text for emphasis */
+  border: none;
+  /* Remove default border */
+  border-radius: 8px;
+  /* Rounded corners */
+  cursor: pointer;
+  /* Pointer cursor on hover */
+  transition: background-color 0.3s ease;
+  /* Smooth hover transition */
+  margin-bottom: 10px; }
+
 :root {
   --bs-border-color: #159957 !important; }
 
@@ -9533,7 +9554,10 @@ footer > div:first-child {
   text-align: center; }
 
 .donation-card .donation-item-footer {
-  justify-content: center; }
+  margin-top: auto;
+  /* Push the footer to the bottom */
+  padding-bottom: 20px;
+  /* Space between footer content and card edge */ }
 
 .events-list {
   display: flex;
@@ -9573,6 +9597,11 @@ footer > div:first-child {
   color: #000000;
   padding: 0 1rem; }
 
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; }
+
 .event-item p strong {
   color: #000000; }
 
@@ -9605,6 +9634,19 @@ footer > div:first-child {
 
 .home-event-item h6, .home-event-item .h6 {
   color: #fd00d3; }
+
+.sign-up-button {
+  margin-top: auto;
+  /* Push the footer to the bottom */
+  padding-bottom: 10px;
+  /* Space between footer content and card edge */ }
+
+.learn-more-button {
+  /* Push the footer to the bottom */
+  margin-top: auto;
+  /* Push the footer to the bottom */
+  padding-bottom: 10px;
+  /* Space between footer content and card edge */ }
 
 .preloader {
   position: fixed;
