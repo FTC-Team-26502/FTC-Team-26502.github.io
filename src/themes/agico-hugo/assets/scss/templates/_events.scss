@@ -45,6 +45,12 @@
     padding: 0 1rem;
 }
 
+.button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .event-item p strong {
     color: #000000;
 }
@@ -86,3 +92,13 @@
     width: 200px;
     height: 200px;
 }
+
+.sign-up-button {
+    margin-top: auto; /* Push the footer to the bottom */
+    padding-bottom: 10px; /* Space between footer content and card edge */
+  }
+
+.learn-more-button { /* Push the footer to the bottom */
+    margin-top: auto; /* Push the footer to the bottom */
+    padding-bottom: 10px; /* Space between footer content and card edge */
+  }

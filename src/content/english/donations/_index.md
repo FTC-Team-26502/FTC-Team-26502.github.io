@@ -10,14 +10,14 @@ donation_items:
   - title: "Just Quacking By"
     description: "The first tier donation."
     price: "100"
-    stripe_id: price_1Rj3DBH5BRP1wdS7d2At8fPv
+    stripe_url: https://buy.stripe.com/3cI8wPfHYdmbaOQ6tIcIE03
     donation_feature:
       - "Your company's name and logo on our website."
 
   - title: "Feather Fanatics"
     description: "The second tier donation."
     price: "250"
-    stripe_id: price_1Rj3DMH5BRP1wdS7kDYbjRud
+    stripe_url: https://buy.stripe.com/dRm8wPanE1Dt8GIdWacIE08
     donation_feature:
       - "All 'Just Quacking By' benefits."
       - "A spotlight in our social posts."
@@ -25,7 +25,7 @@ donation_items:
   - title: "Pond Protectors"
     description: "The third tier donation."
     price: "500"
-    stripe_id: price_1Rj3DUH5BRP1wdS79GaUrtnl
+    stripe_url: https://buy.stripe.com/4gMcN5anEgyng9adWacIE07
     donation_feature:
       - "All Feather Fanatics benefits."
       - "Your logo on our team shirts."
@@ -33,7 +33,7 @@ donation_items:
   - title: "Supreme Squeakers"
     description: "The fourth tier donation."
     price: "1,000"
-    stripe_id: price_1Rj3DfH5BRP1wdS70mSblvAq
+    stripe_url: https://buy.stripe.com/14AeVdfHYfuj4qs9FUcIE06
     donation_feature:
       - "All Pond Protectors benefits."
       - "Your sticker on our robot."
@@ -41,7 +41,7 @@ donation_items:
   - title: "Mallard Magnates"
     description: "The fifth tier donation."
     price: "5,000"
-    stripe_id: price_1Rj3DxH5BRP1wdS7v4wnoIcP
+    stripe_url: https://buy.stripe.com/fZu4gz0N4ci74qsg4icIE05
     donation_feature:
       - "All Supreme Squeakers benefits."
       - "Three posts on our social media."
@@ -49,7 +49,7 @@ donation_items:
   - title: "Quack Attack Platinum"
     description: "The sixth tier donation."
     price: "10,000"
-    stripe_id: price_1Rj3E6H5BRP1wdS7LxMVy6vA
+    stripe_url: https://buy.stripe.com/4gM6oHbrI81Rg9a4lAcIE04
     donation_feature:
       - "All Mallard Magnates benefits."
       - "2 more social media posts."
