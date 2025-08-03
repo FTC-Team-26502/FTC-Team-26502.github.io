@@ -5,7 +5,7 @@ short_description: "Join us to design, build, and program robots! Perfect for al
 page_header_image: "images/events/Rev_DriveBase.jpg"
 description : "You’ll design and build your own robots using fun hands-on activities. Work in teams to tackle challenges and see your creations come to life. The camp wraps up with a friendly competition where you can showcase your robots. It’s a great experience for everyone, whether you’re new to robotics or have some experience!"
 
-stripe_url: https://buy.stripe.com/bJe28r3Zg1Dt4qs2dscIE09
+stripe_url: https://buy.stripe.com/00waEXfHYfuj8GIbO2cIE0a
 event_dates:
 - 2025-08-10
 - 2025-08-17
