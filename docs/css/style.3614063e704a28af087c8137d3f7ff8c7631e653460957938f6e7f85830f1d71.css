@@ -8317,6 +8317,27 @@ h2,
 .is-cardLayout {
   background-color: orange !important; }
 
+.Sponsor-Button {
+  background-color: #28a745;
+  /* Nice green color */
+  color: white;
+  /* White text */
+  padding: 12px 20px;
+  /* Padding for a comfortable click area */
+  font-size: 16px;
+  /* Readable font size */
+  font-weight: bold;
+  /* Bold text for emphasis */
+  border: none;
+  /* Remove default border */
+  border-radius: 8px;
+  /* Rounded corners */
+  cursor: pointer;
+  /* Pointer cursor on hover */
+  transition: background-color 0.3s ease;
+  /* Smooth hover transition */
+  margin-bottom: 10px; }
+
 :root {
   --bs-border-color: #159957 !important; }
 
