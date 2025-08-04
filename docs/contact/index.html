@@ -600,6 +600,9 @@ style="background-image: url(/images/shape/page-title_hu_a3f1a522cca76acd.webp);
   </div>
 </section>
 
+
+
+
 <section class="section section-lg-bottom bg-light">
   <div class="container">
     <div class="row">
@@ -608,18 +611,21 @@ style="background-image: url(/images/shape/page-title_hu_a3f1a522cca76acd.webp);
         <h2 class="section-title">Leave A Message</h2>
       </div>
       <div class="col-lg-10 mx-auto text-center">
-        <form action="#" method="post" class="row">
+        <form
+          action="https://formspree.io/f/mvgqwggv"
+          method="POST"
+        >
           <div class="col-lg-6">
-            <input type="text" class="form-control mb-4" placeholder="Your email" required>
+            <input type="text" name = "email" class="form-control mb-4" placeholder="Your email" required>
           </div>
           <div class="col-lg-6">
-            <input type="text" class="form-control mb-4" placeholder="Your Name" required>
+            <input type="text" name = "name" class="form-control mb-4" placeholder="Your Name" required>
           </div>
           <div class="col-lg-12">
-            <input type="text" class="form-control mb-4" placeholder="Subject">
+            <input type="text" name = "subject" class="form-control mb-4" placeholder="Subject">
           </div>
           <div class="col-lg-12">
-            <textarea name="message" class="form-control mb-4" placeholder="Message" required></textarea>
+            <textarea name="message" name = "message" class="form-control mb-4" placeholder="Message" required></textarea>
           </div>
           <div class="col-12">
             <button type="submit" class="btn btn-primary">Submit Now</button>
@@ -629,7 +635,6 @@ style="background-image: url(/images/shape/page-title_hu_a3f1a522cca76acd.webp);
     </div>
   </div>
 </section>
-
 
 
 
