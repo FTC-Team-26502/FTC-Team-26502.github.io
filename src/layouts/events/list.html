@@ -62,23 +62,12 @@
 		{{ $eventDate := index .Params.event_dates 0 }}
 		{{ $eventDateParsed := time $eventDate }}
 		{{ if lt $eventDateParsed.Unix  now }}
-        <div class="event-item event-{{  cond  ( ge 0 (sub  now.YearDay  .Params.date.YearDay ) ) "future" "old" }}">
-
+       <div class='event-item event-{{ cond (ge 0 (sub now.YearDay .Params.date.YearDay)) "future" "old" }}'>
           <h3>{{ .Title }}</h3>
-            <p><strong>Date:</strong>
-            {{ $count := len .Params.event_dates }} <!-- Get the total count -->
-            {{ range $index, $date := .Params.event_dates }}
-                {{ $date }}{{ if ne (add $index 1) $count }}, {{ end }} <!-- Add comma if not the last item -->
-            {{ end }}
-            </p>
-            <p><strong>Time:</strong> {{ .Params.time }}</p>
-            <p><strong>Location:</strong> {{ .Params.location }}</p>
             <p align="left">{{ .Params.short_description }}</p>
             <div>
               <a href="{{ .RelPermalink }}" class="event-button">Learn More</a>
             </div>
-            
-            
         </div>
     {{ end }} 
     {{ end }}
