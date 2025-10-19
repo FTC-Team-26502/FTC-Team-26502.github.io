@@ -2,185 +2,192 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>BRB Robotics | FTC Team 26502 | Charlottesville, Virginia</title>
-    <link>https://brbrobotics.org/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on BRB Robotics | FTC Team 26502 | Charlottesville, Virginia</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 04 May 2025 09:51:57 +0600</lastBuildDate>
-    <atom:link href="https://brbrobotics.org/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🎃 Halloween Drone Dash 🎃</title>
+      <link>http://localhost:1313/events/drones-oct-2025/</link>
+      <pubDate>Sun, 04 May 2025 09:51:57 +0600</pubDate>
+      <guid>http://localhost:1313/events/drones-oct-2025/</guid>
+      <description></description>
+    </item>
     <item>
       <title>FLL Explore Expo</title>
-      <link>https://brbrobotics.org/events/fll-expo-may-2025/</link>
+      <link>http://localhost:1313/events/fll-expo-may-2025/</link>
       <pubDate>Sun, 04 May 2025 09:51:57 +0600</pubDate>
-      <guid>https://brbrobotics.org/events/fll-expo-may-2025/</guid>
+      <guid>http://localhost:1313/events/fll-expo-may-2025/</guid>
       <description>&lt;!-- &#xD;&#xA;&lt;div class=&#34;event-item&#34;&gt;&#xD;&#xA;        &lt;h3&gt;FLL Explore Expo&lt;/h3&gt;&#xD;&#xA;        &lt;p&gt;&lt;strong&gt;Date:&lt;/strong&gt; May 4, 2025&lt;/p&gt;&#xD;&#xA;        &lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 2:00 PM - 4:00 PM&lt;/p&gt;</description>
     </item>
     <item>
       <title>FLL Explore Expo</title>
-      <link>https://brbrobotics.org/events/fll-scrimmage-may-2025/</link>
+      <link>http://localhost:1313/events/fll-scrimmage-may-2025/</link>
       <pubDate>Sun, 04 May 2025 09:51:57 +0600</pubDate>
-      <guid>https://brbrobotics.org/events/fll-scrimmage-may-2025/</guid>
+      <guid>http://localhost:1313/events/fll-scrimmage-may-2025/</guid>
       <description>&lt;p align=&#34;left&#34;&gt;Come check out our local FIRST Lego League (FLL) scrimmage, where teams will battle it out in an exciting robot game! Watch as they put their creativity and engineering skills to the test on the field.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Robotics Building Workshop</title>
-      <link>https://brbrobotics.org/events/ftc-august-2025/</link>
+      <link>http://localhost:1313/events/ftc-august-2025/</link>
       <pubDate>Sat, 17 Aug 2024 09:51:57 +0600</pubDate>
-      <guid>https://brbrobotics.org/events/ftc-august-2025/</guid>
+      <guid>http://localhost:1313/events/ftc-august-2025/</guid>
       <description>&lt;h1&gt;FTC Robotics Camp Overview&lt;/h1&gt;&#xD;&#xA;&lt;div&gt;&#xD;&#xA;  Time: 1 pm - 5 pm &#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div&gt;&#xD;&#xA;  Date: 10, 17, 24 of August &#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div&gt;&#xD;&#xA;  Max participants: 6&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div&gt;&#xD;&#xA;  Age: 7-10th graders&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div&gt;&#xD;&#xA;  Entry Fee: $150&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;/br&gt;&#xD;&#xA;&lt;h1&gt;FTC Robotics Camp Schedule&lt;/h1&gt;&#xD;&#xA;&lt;div class=&#34;day-section&#34;&gt;&#xD;&#xA;  &lt;/br&gt;&#xD;&#xA;  &lt;h2&gt;Day 1: Build the Basic Drivebase&lt;/h2&gt;&#xD;&#xA;  &lt;div class=&#34;time-slot&#34;&gt;&#xD;&#xA;    1:00 PM – 1:30 PM: Arrival and Icebreaker &#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;time-slot&#34;&gt;&#xD;&#xA;    1:30 PM – 2:45 PM: Building Session 1 &#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;time-slot break&#34;&gt;&#xD;&#xA;    2:45 PM – 3:00 PM: Break &#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;time-slot&#34;&gt;&#xD;&#xA;    3:00 PM – 4:00 PM: Build Session 2 &#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;day-section&#34;&gt;&#xD;&#xA;  &lt;/br&gt;&#xD;&#xA;  &lt;h2&gt;Day 2: Test and Modify Drivebase&lt;/h2&gt;&#xD;&#xA;  &lt;div class=&#34;time-slot&#34;&gt;&#xD;&#xA;    1:00 PM – 1:15 PM: Arrival and Recap &#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;time-slot&#34;&gt;&#xD;&#xA;    1:15 PM – 1:30 PM: Introduction to Testing &#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;time-slot&#34;&gt;&#xD;&#xA;    1:30 PM – 2:30 PM: Testing Session &#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;time-slot break&#34;&gt;&#xD;&#xA;    2:30 PM – 2:45 PM: Break &#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;time-slot&#34;&gt;&#xD;&#xA;    2:45 PM – 3:30 PM: Modification Session &#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;time-slot&#34;&gt;&#xD;&#xA;    3:30 PM – 4:00 PM: Final Testing &#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;day-section&#34;&gt;&#xD;&#xA;  &lt;/br&gt;&#xD;&#xA;  &lt;h2&gt;Day 3: Compete on the Obstacle Course&lt;/h2&gt;&#xD;&#xA;  &lt;div class=&#34;time-slot&#34;&gt;&#xD;&#xA;    1:00 PM – 1:15 PM: Arrival and Final Preparations &#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;time-slot&#34;&gt;&#xD;&#xA;    1:15 PM – 1:30 PM: Obstacle Course Overview &#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;time-slot&#34;&gt;&#xD;&#xA;    1:30 PM – 2:30 PM: Practice Runs &#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;time-slot break&#34;&gt;&#xD;&#xA;    2:30 PM – 2:45 PM: Break &#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;time-slot&#34;&gt;&#xD;&#xA;    2:45 PM – 3:30 PM: Competition Time &#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;time-slot&#34;&gt;&#xD;&#xA;    3:30 PM – 4:00 PM: Wrap-Up and Celebration &#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div&gt;&#xD;&#xA;    &lt;/br&gt;&#xD;&#xA;    &lt;h5&gt; All funds from workshop sign-ups will go directly to supporting FTC Team 26502, BRB Robotics.&lt;h5&gt;&#xD;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title>Build, Code, Compete! Lego Robotics</title>
-      <link>https://brbrobotics.org/events/lego-robotics-august-2025/</link>
+      <link>http://localhost:1313/events/lego-robotics-august-2025/</link>
       <pubDate>Wed, 10 Apr 2024 09:51:57 +0600</pubDate>
-      <guid>https://brbrobotics.org/events/lego-robotics-august-2025/</guid>
+      <guid>http://localhost:1313/events/lego-robotics-august-2025/</guid>
       <description>&lt;h1&gt;Build, Code, Compete! Lego Robotics Overview&lt;/h1&gt;&#xD;&#xA;&lt;div&gt;&#xD;&#xA;  Time: 1 pm - 4 pm &#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div&gt;&#xD;&#xA;  Date: 9, 16, 23 of August &#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div&gt;&#xD;&#xA;  Max participants: 10&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div&gt;&#xD;&#xA;  Ages: 8-12 &#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div&gt;&#xD;&#xA;  Entry Fee: $199.99&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;/br&gt;&#xD;&#xA;&lt;h1&gt;Build, Code, Compete! Lego Robotics Schedule&lt;/h1&gt;&#xD;&#xA;&lt;div class=&#34;day-section&#34;&gt;&#xD;&#xA;  &lt;/br&gt;&#xD;&#xA;  &lt;h2&gt;Day 1: Build&lt;/h2&gt;&#xD;&#xA;  &lt;div class=&#34;time-slot&#34;&gt;&#xD;&#xA;    1:00-1:15: Arrival/Introductions &#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;time-slot&#34;&gt;&#xD;&#xA;    1:15-1:30: Make teams&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;time-slot break&#34;&gt;&#xD;&#xA;    1:30-2:45: Build Session 1&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;time-slot&#34;&gt;&#xD;&#xA;    2:45-3:00: Snack/Break&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;time-slot&#34;&gt;&#xD;&#xA;    3:00-4:00: Build Session 2&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;day-section&#34;&gt;&#xD;&#xA;  &lt;/br&gt;&#xD;&#xA;  &lt;h2&gt;Day 2: Code&lt;/h2&gt;&#xD;&#xA;  &lt;div class=&#34;time-slot&#34;&gt;&#xD;&#xA;    1:00-1:15: Arrival/Introductions&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;time-slot&#34;&gt;&#xD;&#xA;    1:15-1:30: Make teams&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;time-slot&#34;&gt;&#xD;&#xA;    1:30-2:45: Code Session 1&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;time-slot break&#34;&gt;&#xD;&#xA;    2:45-3:00: Snack/Break&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;time-slot break&#34;&gt;&#xD;&#xA;    3:00-4:00: Code Session 2&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;time-slot&#34;&gt;&#xD;&#xA;    3:30 PM – 4:00 PM: Final Testing &#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;day-section&#34;&gt;&#xD;&#xA;    &lt;/br&gt;&#xD;&#xA;    &lt;h2&gt;Day 3 &amp; 4: Compete&lt;/h2&gt;&#xD;&#xA;    &lt;div class=&#34;time-slot&#34;&gt;&#xD;&#xA;    &lt;h6&gt;Saturday:&lt;/h6&gt;&#xD;&#xA;    &lt;div class=&#34;time-slot&#34;&gt;&#xD;&#xA;        2:30 pm to 6:30 pm — practice and set up&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;    &lt;div class=&#34;time-slot&#34;&gt;&#xD;&#xA;        &lt;/br&gt;&#xD;&#xA;        &lt;h6&gt;Sunday:&lt;/h6&gt;&#xD;&#xA;        &lt;div class=&#34;time-slot&#34;&gt;&#xD;&#xA;            9:00 am to 10:00 am — registration, robot inspection, and set up&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;time-slot&#34;&gt;&#xD;&#xA;            10:00 am to 12:00 pm — qualification matches&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;time-slot&#34;&gt;&#xD;&#xA;            12:00 pm to 1:00 pm — lunch&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;time-slot break&#34;&gt;&#xD;&#xA;            1:00 pm to 3:00 pm — qualification matched&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;time-slot&#34;&gt;&#xD;&#xA;            3:00 pm to 4:00 pm — break&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;        &lt;div class=&#34;time-slot&#34;&gt;&#xD;&#xA;            4:00 pm to 5:00 pm — closing ceremony&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div&gt;&#xD;&#xA;    &lt;/br&gt;&#xD;&#xA;    &lt;h5&gt; All funds from workshop sign-ups will go directly to supporting FTC Team 26502, BRB Robotics.&lt;h5&gt;&#xD;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title>FAQ</title>
-      <link>https://brbrobotics.org/faq/</link>
+      <link>http://localhost:1313/faq/</link>
       <pubDate>Fri, 05 Jun 2020 15:04:04 +0200</pubDate>
-      <guid>https://brbrobotics.org/faq/</guid>
+      <guid>http://localhost:1313/faq/</guid>
       <description>&lt;h3 id=&#34;skill-based-gaming-or-gambling&#34;&gt;Skill based Gaming or Gambling?&lt;/h3&gt;&#xA;&lt;br&gt;&#xD;&#xA;&lt;h5 id=&#34;what-is-the-difference-between-gaming-and-gambling&#34;&gt;What is the difference between gaming and gambling?&lt;/h5&gt;&#xA;&lt;p&gt;The difference between the terms is that for gaming the outcome is achieved by skill and not by chance, whereas for gambling the result is based on chance and luck.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Contact</title>
-      <link>https://brbrobotics.org/contact/</link>
+      <link>http://localhost:1313/contact/</link>
       <pubDate>Wed, 10 Apr 2019 09:51:57 +0600</pubDate>
-      <guid>https://brbrobotics.org/contact/</guid>
+      <guid>http://localhost:1313/contact/</guid>
       <description></description>
     </item>
     <item>
       <title>Cupidat non proident sunt officia deserunt mollit anim.</title>
-      <link>https://brbrobotics.org/blog/cupidat-non-proident.1/</link>
+      <link>http://localhost:1313/blog/cupidat-non-proident.1/</link>
       <pubDate>Wed, 10 Apr 2019 09:51:57 +0600</pubDate>
-      <guid>https://brbrobotics.org/blog/cupidat-non-proident.1/</guid>
+      <guid>http://localhost:1313/blog/cupidat-non-proident.1/</guid>
       <description>&lt;h3 id=&#34;elit-duied-aiusmod-tempor-did-labore-dolory&#34;&gt;Elit duied aiusmod tempor did labore dolory&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore&#xA;et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut&#xA;aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse&#xA;cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cupidat non proident sunt officia deserunt mollit anim.</title>
-      <link>https://brbrobotics.org/blog/cupidat-non-proident.10/</link>
+      <link>http://localhost:1313/blog/cupidat-non-proident.10/</link>
       <pubDate>Wed, 10 Apr 2019 09:51:57 +0600</pubDate>
-      <guid>https://brbrobotics.org/blog/cupidat-non-proident.10/</guid>
+      <guid>http://localhost:1313/blog/cupidat-non-proident.10/</guid>
       <description>&lt;h3 id=&#34;elit-duied-aiusmod-tempor-did-labore-dolory&#34;&gt;Elit duied aiusmod tempor did labore dolory&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore&#xA;et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut&#xA;aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse&#xA;cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cupidat non proident sunt officia deserunt mollit anim.</title>
-      <link>https://brbrobotics.org/blog/cupidat-non-proident.2/</link>
+      <link>http://localhost:1313/blog/cupidat-non-proident.2/</link>
       <pubDate>Wed, 10 Apr 2019 09:51:57 +0600</pubDate>
-      <guid>https://brbrobotics.org/blog/cupidat-non-proident.2/</guid>
+      <guid>http://localhost:1313/blog/cupidat-non-proident.2/</guid>
       <description>&lt;h3 id=&#34;elit-duied-aiusmod-tempor-did-labore-dolory&#34;&gt;Elit duied aiusmod tempor did labore dolory&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore&#xA;et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut&#xA;aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse&#xA;cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cupidat non proident sunt officia deserunt mollit anim.</title>
-      <link>https://brbrobotics.org/blog/cupidat-non-proident.3/</link>
+      <link>http://localhost:1313/blog/cupidat-non-proident.3/</link>
       <pubDate>Wed, 10 Apr 2019 09:51:57 +0600</pubDate>
-      <guid>https://brbrobotics.org/blog/cupidat-non-proident.3/</guid>
+      <guid>http://localhost:1313/blog/cupidat-non-proident.3/</guid>
       <description>&lt;h3 id=&#34;elit-duied-aiusmod-tempor-did-labore-dolory&#34;&gt;Elit duied aiusmod tempor did labore dolory&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore&#xA;et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut&#xA;aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse&#xA;cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cupidat non proident sunt officia deserunt mollit anim.</title>
-      <link>https://brbrobotics.org/blog/cupidat-non-proident.4/</link>
+      <link>http://localhost:1313/blog/cupidat-non-proident.4/</link>
       <pubDate>Wed, 10 Apr 2019 09:51:57 +0600</pubDate>
-      <guid>https://brbrobotics.org/blog/cupidat-non-proident.4/</guid>
+      <guid>http://localhost:1313/blog/cupidat-non-proident.4/</guid>
       <description>&lt;h3 id=&#34;elit-duied-aiusmod-tempor-did-labore-dolory&#34;&gt;Elit duied aiusmod tempor did labore dolory&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore&#xA;et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut&#xA;aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse&#xA;cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cupidat non proident sunt officia deserunt mollit anim.</title>
-      <link>https://brbrobotics.org/blog/cupidat-non-proident.5/</link>
+      <link>http://localhost:1313/blog/cupidat-non-proident.5/</link>
       <pubDate>Wed, 10 Apr 2019 09:51:57 +0600</pubDate>
-      <guid>https://brbrobotics.org/blog/cupidat-non-proident.5/</guid>
+      <guid>http://localhost:1313/blog/cupidat-non-proident.5/</guid>
       <description>&lt;h3 id=&#34;elit-duied-aiusmod-tempor-did-labore-dolory&#34;&gt;Elit duied aiusmod tempor did labore dolory&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore&#xA;et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut&#xA;aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse&#xA;cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cupidat non proident sunt officia deserunt mollit anim.</title>
-      <link>https://brbrobotics.org/blog/cupidat-non-proident.6/</link>
+      <link>http://localhost:1313/blog/cupidat-non-proident.6/</link>
       <pubDate>Wed, 10 Apr 2019 09:51:57 +0600</pubDate>
-      <guid>https://brbrobotics.org/blog/cupidat-non-proident.6/</guid>
+      <guid>http://localhost:1313/blog/cupidat-non-proident.6/</guid>
       <description>&lt;h3 id=&#34;elit-duied-aiusmod-tempor-did-labore-dolory&#34;&gt;Elit duied aiusmod tempor did labore dolory&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore&#xA;et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut&#xA;aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse&#xA;cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cupidat non proident sunt officia deserunt mollit anim.</title>
-      <link>https://brbrobotics.org/blog/cupidat-non-proident.7/</link>
+      <link>http://localhost:1313/blog/cupidat-non-proident.7/</link>
       <pubDate>Wed, 10 Apr 2019 09:51:57 +0600</pubDate>
-      <guid>https://brbrobotics.org/blog/cupidat-non-proident.7/</guid>
+      <guid>http://localhost:1313/blog/cupidat-non-proident.7/</guid>
       <description>&lt;h3 id=&#34;elit-duied-aiusmod-tempor-did-labore-dolory&#34;&gt;Elit duied aiusmod tempor did labore dolory&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore&#xA;et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut&#xA;aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse&#xA;cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cupidat non proident sunt officia deserunt mollit anim.</title>
-      <link>https://brbrobotics.org/blog/cupidat-non-proident.9/</link>
+      <link>http://localhost:1313/blog/cupidat-non-proident.9/</link>
       <pubDate>Wed, 10 Apr 2019 09:51:57 +0600</pubDate>
-      <guid>https://brbrobotics.org/blog/cupidat-non-proident.9/</guid>
+      <guid>http://localhost:1313/blog/cupidat-non-proident.9/</guid>
       <description>&lt;h3 id=&#34;elit-duied-aiusmod-tempor-did-labore-dolory&#34;&gt;Elit duied aiusmod tempor did labore dolory&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore&#xA;et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut&#xA;aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse&#xA;cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Search Result</title>
-      <link>https://brbrobotics.org/search/</link>
+      <link>http://localhost:1313/search/</link>
       <pubDate>Wed, 10 Apr 2019 09:51:57 +0600</pubDate>
-      <guid>https://brbrobotics.org/search/</guid>
+      <guid>http://localhost:1313/search/</guid>
       <description></description>
     </item>
     <item>
       <title>The Real Product From the Buyers improvements in Overflow basis.</title>
-      <link>https://brbrobotics.org/blog/cupidat-non-proident.8/</link>
+      <link>http://localhost:1313/blog/cupidat-non-proident.8/</link>
       <pubDate>Wed, 10 Apr 2019 09:51:57 +0600</pubDate>
-      <guid>https://brbrobotics.org/blog/cupidat-non-proident.8/</guid>
+      <guid>http://localhost:1313/blog/cupidat-non-proident.8/</guid>
       <description>&lt;h3 id=&#34;elit-duied-aiusmod-tempor-did-labore-dolory&#34;&gt;Elit duied aiusmod tempor did labore dolory&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore&#xA;et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut&#xA;aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse&#xA;cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Web Project Manager - Team of PHP MySQL Developers</title>
-      <link>https://brbrobotics.org/career/web-project-manager.1/</link>
+      <link>http://localhost:1313/career/web-project-manager.1/</link>
       <pubDate>Wed, 10 Apr 2019 09:51:57 +0600</pubDate>
-      <guid>https://brbrobotics.org/career/web-project-manager.1/</guid>
+      <guid>http://localhost:1313/career/web-project-manager.1/</guid>
       <description>&lt;h3 id=&#34;jobs-description&#34;&gt;Jobs Description&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut&#xA;labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut&#xA;aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse&#xA;cillum dolore eu fugiat nulla pariatur.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Web Project Manager - Team of PHP MySQL Developers</title>
-      <link>https://brbrobotics.org/career/web-project-manager.2/</link>
+      <link>http://localhost:1313/career/web-project-manager.2/</link>
       <pubDate>Wed, 10 Apr 2019 09:51:57 +0600</pubDate>
-      <guid>https://brbrobotics.org/career/web-project-manager.2/</guid>
+      <guid>http://localhost:1313/career/web-project-manager.2/</guid>
       <description>&lt;h3 id=&#34;jobs-description&#34;&gt;Jobs Description&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut&#xA;labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut&#xA;aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse&#xA;cillum dolore eu fugiat nulla pariatur.&#xA;&lt;br&gt;&lt;br&gt;&#xA;Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&#xA;sed ut perspiciatis unde.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Web Project Manager - Team of PHP MySQL Developers</title>
-      <link>https://brbrobotics.org/career/web-project-manager.3/</link>
+      <link>http://localhost:1313/career/web-project-manager.3/</link>
       <pubDate>Wed, 10 Apr 2019 09:51:57 +0600</pubDate>
-      <guid>https://brbrobotics.org/career/web-project-manager.3/</guid>
+      <guid>http://localhost:1313/career/web-project-manager.3/</guid>
       <description>&lt;h3 id=&#34;jobs-description&#34;&gt;Jobs Description&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut&#xA;labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut&#xA;aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse&#xA;cillum dolore eu fugiat nulla pariatur.&#xA;&lt;br&gt;&lt;br&gt;&#xA;Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&#xA;sed ut perspiciatis unde.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Web Project Manager - Team of PHP MySQL Developers</title>
-      <link>https://brbrobotics.org/career/web-project-manager.4/</link>
+      <link>http://localhost:1313/career/web-project-manager.4/</link>
       <pubDate>Wed, 10 Apr 2019 09:51:57 +0600</pubDate>
-      <guid>https://brbrobotics.org/career/web-project-manager.4/</guid>
+      <guid>http://localhost:1313/career/web-project-manager.4/</guid>
       <description>&lt;h3 id=&#34;jobs-description&#34;&gt;Jobs Description&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut&#xA;labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut&#xA;aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse&#xA;cillum dolore eu fugiat nulla pariatur.&#xA;&lt;br&gt;&lt;br&gt;&#xA;Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&#xA;sed ut perspiciatis unde.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Web Project Manager - Team of PHP MySQL Developers</title>
-      <link>https://brbrobotics.org/career/web-project-manager.5/</link>
+      <link>http://localhost:1313/career/web-project-manager.5/</link>
       <pubDate>Wed, 10 Apr 2019 09:51:57 +0600</pubDate>
-      <guid>https://brbrobotics.org/career/web-project-manager.5/</guid>
+      <guid>http://localhost:1313/career/web-project-manager.5/</guid>
       <description>&lt;h3 id=&#34;jobs-description&#34;&gt;Jobs Description&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut&#xA;labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut&#xA;aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse&#xA;cillum dolore eu fugiat nulla pariatur.&#xA;&lt;br&gt;&lt;br&gt;&#xA;Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&#xA;sed ut perspiciatis unde.&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>https://brbrobotics.org/robot/</link>
+      <link>http://localhost:1313/robot/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://brbrobotics.org/robot/</guid>
+      <guid>http://localhost:1313/robot/</guid>
       <description>&lt;section class=&#34;robot-section&#34;&gt;&#xD;&#xA;    &lt;h1&gt;Coming Soon!&lt;/h1&gt;&#xD;&#xA;  &lt;/script&gt;</description>
     </item>
     <item>
       <title>Our Team</title>
-      <link>https://brbrobotics.org/join-us/</link>
+      <link>http://localhost:1313/join-us/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://brbrobotics.org/join-us/</guid>
+      <guid>http://localhost:1313/join-us/</guid>
       <description>&lt;div class=&#34;section&#34;&gt;&#xD;&#xA;    &lt;h3&gt;What is FTC?&lt;/h3&gt;&#xD;&#xA;    &lt;p&gt;&#xD;&#xA;        FIRST Tech Challenge (FTC) is a global robotics program where students design, build, and program robots to compete in challenges. &#xD;&#xA;        It’s all about teamwork, creativity, and learning STEM skills while solving real-world problems! &lt;/br&gt;&#xD;&#xA;    &lt;/p&gt;</description>
     </item>
     <item>
       <title>Our Team</title>
-      <link>https://brbrobotics.org/team/</link>
+      <link>http://localhost:1313/team/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://brbrobotics.org/team/</guid>
+      <guid>http://localhost:1313/team/</guid>
       <description></description>
     </item>
   </channel>
