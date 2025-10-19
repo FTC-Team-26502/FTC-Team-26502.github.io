@@ -1,0 +1,19 @@
+{
+  "name": "FTC26502",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "author": "FTC Team 26502",
+  "scripts": {
+    "dev": "hugo server --destination ../docs",
+    "build": "hugo --gc --minify --templateMetrics --templateMetricsHints --buildDrafts --buildExpired --buildFuture --forceSyncStatic",
+    "test": "hugo server --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --buildDrafts --buildExpired --buildFuture --watch --forceSyncStatic -e production --minify",
+    "format": "prettier -w ."
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "postcss": "^8.4.20",
+    "postcss-cli": "^10.1.0",
+    "prettier": "^2.8.1",
+    "prettier-plugin-go-template": "0.0.13"
+  }
+}

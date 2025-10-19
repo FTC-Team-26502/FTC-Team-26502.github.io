@@ -1,44 +1,70 @@
 {{ define "main" }}
 
 <section class="section">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <div class="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <style>
+  .signup-row {
+    display: flex;
+    flex-wrap: wrap;        /* wrap on small screens */
+    gap: 8px;               /* small space between buttons */
+    align-items: center;
+    margin: 0.5rem 0 1rem;
+  }
 
-          
-          
-          <div class="sign-up-button">
-            {{ if .Params.stripe_url }}
-              <div>
-                <a href = "{{ .Params.stripe_url }}" class="Sign-Up-Button">
-                  Sign Up!
-                </a>
-                </br>
-              </div>
-            {{ else }}
-              ERROR: stripe_url not defined
-            {{ end }}
-          </div>
-          {{ .Content }}
-          <div class="sign-up-button">
-            {{ if .Params.stripe_url }}
-              <div>
-                <a href = "{{ .Params.stripe_url }}" class="Sign-Up-Button">
-                  Sign Up!
-                </a>
-                </br>
-              </div>
-            {{ else }}
-              ERROR: stripe_url not defined
-            {{ end }}
-          </div>
-          <!-- {{.Params.page_header_image}} -->
-          <!-- {{ partial "image.html" (dict "Src" .Params.page_header_image "Alt" "Rev Drivebase") }} -->
+  .sign-up-button {
+    margin: 0;              /* ensure no extra margins */
+  }
+
+  .Sign-Up-Button {
+    display: inline-block;
+    padding: 8px 12px;
+    background: #2563eb;    /* blue */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    line-height: 1.2;
+    white-space: nowrap;    /* keep time ranges on one line */
+    transition: background-color .15s ease, transform .05s ease;
+  }
+
+  .Sign-Up-Button:hover,
+  .Sign-Up-Button:focus {
+    background: #1e40af;    /* darker on hover/focus */
+  }
+
+  .Sign-Up-Button:active {
+    transform: translateY(1px);
+  }
+
+  /* Optional: make buttons more compact on very small screens */
+  @media (max-width: 420px) {
+    .Sign-Up-Button {
+      padding: 7px 10px;
+      font-size: 0.95rem;
+    }
+  }
+</style>
+
+<div class="content signup-row">
+  {{ with .Params.event_pay }}
+    {{ range . }}
+      {{ $url := (index . "stripe_url") }}
+      {{ $text := default "Sign up" (index . "button_text") }}
+      {{ if $url }}
+        <div class="sign-up-button">
+          <a href="{{ $url }}" class="Sign-Up-Button">{{ $text }}</a>
         </div>
-      </div>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+</div>
+                {{ .Content }}
+            </div>
+        </div>
     </div>
-  </div>
 </section>
 
 {{ end }}
