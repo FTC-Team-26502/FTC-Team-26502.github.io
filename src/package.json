@@ -5,12 +5,15 @@
   "author": "FTC Team 26502",
   "scripts": {
     "dev": "hugo server --destination ../docs",
-    "build": "hugo --gc --minify --templateMetrics --templateMetricsHints --buildDrafts --buildExpired --buildFuture --forceSyncStatic",
-    "test": "hugo server --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --buildDrafts --buildExpired --buildFuture --watch --forceSyncStatic -e production --minify",
-    "format": "prettier -w ."
+    "copy": "cpy --no-parents ../CNAME ../docs",
+    "build": "hugo --destination ../docs --gc --minify --templateMetrics --templateMetricsHints --buildDrafts --buildExpired --buildFuture --forceSyncStatic",
+    "test": "hugo server --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --buildDrafts --buildExpired --buildFuture --watch --forceSyncStatic -e production --minify ",
+    "format": "prettier -w .",
+    "github": "npm run build && git add -A :/ && git commit -m '$npm_config_message' && git push"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^5.0.0",
+    "cpy": "^12.0.2",
     "postcss": "^8.4.20",
     "postcss-cli": "^10.1.0",
     "prettier": "^2.8.1",
