@@ -13,10 +13,6 @@ location: "Blue Ridge Boost, 2171 Ivy Road, Charlottesville, VA"
 layout: "event"
 draft: false
 event_pay:
-  name: "event button"
-  stripe_id: price_1RnoFRH5BRP1wdS75igV7ag7
-  button: Sign Up!
-  success_redirect: /events
   
 ---
 

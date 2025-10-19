@@ -10,11 +10,6 @@ event_dates:
 - 2025-08-09
 - 2025-08-16
 - 2025-08-23
-event_pay:
-  name: "event button"
-  stripe_id: price_1RnoFRH5BRP1wdS75igV7ag7
-  button: Sign Up!
-  success_redirect: /events
   
 
 time: "1pm - 4pm"

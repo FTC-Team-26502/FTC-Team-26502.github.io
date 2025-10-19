@@ -5,16 +5,10 @@ short_description: "Join us to design, build, and program robots! Perfect for al
 page_header_image: "images/events/Rev_DriveBase.jpg"
 description : "You’ll design and build your own robots using fun hands-on activities. Work in teams to tackle challenges and see your creations come to life. The camp wraps up with a friendly competition where you can showcase your robots. It’s a great experience for everyone, whether you’re new to robotics or have some experience!"
 
-stripe_url: https://buy.stripe.com/00waEXfHYfuj8GIbO2cIE0a
 event_dates:
 - 2025-08-10
 - 2025-08-17
 - 2025-08-24
-event_pay:
-  name: "event button"
-  stripe_id: price_1RorMFH5BRP1wdS7f3E9VwN0
-  button: Sign Up!
-  success_redirect: /events
 
 time: "4 PM to 7 PM"
 location: "Blue Ridge Boost: 2171 Ivy Rd, Charlottesville, VA 22903"
