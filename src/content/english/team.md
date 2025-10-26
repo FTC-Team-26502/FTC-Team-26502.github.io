@@ -10,17 +10,23 @@ description : "Our FTC Team, BRB Robotics, 26502, started in 2024 with the suppo
 layout: "team"
 draft: false
 
+
 team_member:
-# team member
-- name : "Sagnik"
-  image : "images/team/Sagnik.jpg"
-  designation : "Builder"
-  description: Sagnik
-    
 # team member
 - name : "Dorina"
   image : "images/team/Dorina.jpg"
   designation : "Captain / CAD Lead / Outreach"
   description: I have been part of FIRST for seven years, starting with FLL Explore and progressing to FTC last year. These competitions have fueled my passion for coding and engineering. We won the Control Award last year. I focus on Computer Aided Design (CAD) for our robot and will also handle the coding for both our teleop and autonomous modes.
-
+  
+# team member
+- name : "Sagnik"
+  image : "images/team/Sagnik.jpg"
+  designation : "Lead Builder"
+  description: TODO
+    
+# team member
+- name : "Theo"
+  image : ""
+  designation : "CADer / Portfolio Designer"
+  description: TODO
 ---

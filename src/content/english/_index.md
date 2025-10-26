@@ -12,5 +12,4 @@ banner:
     enable : false
     label : "Join Us"
     link : "#"
-
 ---
