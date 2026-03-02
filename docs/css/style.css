@@ -91,7 +91,7 @@
   --bs-tertiary-color-rgb: 33, 37, 41;
   --bs-tertiary-bg: #f8f9fa;
   --bs-tertiary-bg-rgb: 248, 249, 250;
-  --bs-heading-color: #070045;
+  --bs-heading-color: inherit;
   --bs-link-color: #0d6efd;
   --bs-link-color-rgb: 13, 110, 253;
   --bs-link-decoration: underline;
@@ -7746,7 +7746,7 @@ body {
 p,
 .paragraph {
   font-weight: 400;
-  color: #000000;
+  color: #ffffff;
   font-size: 15px;
   line-height: 1.6;
   font-family: "Open Sans", sans-serif; }
@@ -9219,21 +9219,21 @@ footer > div:first-child {
   transition: background 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease; }
 
 .event-button:hover {
-  background: linear-gradient(135deg, #005f0d, #007c11);
+  background: #d711ff;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
   transform: scale(1.05); }
 
 .events-holder {
   height: 150px;
   align-items: center;
-  background-color: #ffdcfa;
+  background-color: #001143;
   width: 100%; }
 
 .home-event-item {
   width: 350px;
   height: 200px; }
   .home-event-item h6, .home-event-item .h6 {
-    color: #fd00d3; }
+    color: #ff9ad4; }
 
 .sign-up-button {
   margin-top: auto;
