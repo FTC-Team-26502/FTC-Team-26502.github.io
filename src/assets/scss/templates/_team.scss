@@ -1,0 +1,40 @@
+.team-holder {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap; /* Ensures responsiveness */
+}
+
+.team-member {
+  display: flex;
+  flex-direction: column; /* Stacks image and text vertically */
+  align-items: center; /* Centers text horizontally */
+  text-align: center; /* Centers text inside */
+  width: 300px; /* Adjust as needed */
+  margin: 40px;
+  overflow: hidden; /* Prevents content overflow */
+  background: rgb(255, 204, 232); /* Optional: Card background color */
+  border-radius: 10px; /* Optional: Rounded corners */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow */
+
+  img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ddd; /* Divider between image and text */
+  }
+
+  &-content {
+    padding: 15px; /* Adds spacing around text */
+  }
+
+  &-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px 0 5px; /* Space above and below name */
+  }
+
+  &-designation {
+    font-size: 1rem;
+    color: #666; /* Subtle color for designation text */
+    margin-bottom: 10px;
+  }
+}

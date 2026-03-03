@@ -18,11 +18,11 @@
         <h6 style="text-align: center;">
           <a href="{{ $page.RelPermalink }}" style="text-decoration: none; color: inherit;">
               {{ $page.Title }}</br>
-              <p><strong>Date:</strong>
+              <h6><strong>Date:</strong>
               {{ $count := len .Params.event_dates }} <!-- Get the total count -->
               {{ range $index, $date := .Params.event_dates }}
                   {{ $date }}{{ if ne (add $index 1) $count }}, {{ end }} <!-- Add comma if not the last item -->
-              {{ end }}
+              {{ end }} </h6>
           </a>
         </h6>
 				<div>

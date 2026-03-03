@@ -27,7 +27,7 @@ donation_items:
     price: "500"
     stripe_url: "https://buy.stripe.com/4gMcN5anEgyng9adWacIE07"
     donation_feature:
-      - "All Stell Sponsor benefits."
+      - "All Steel Sponsor benefits."
       - "Your logo on our team shirts."
 
   - title: "Silver Sponsor"
