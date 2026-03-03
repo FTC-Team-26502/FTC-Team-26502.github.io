@@ -19,7 +19,7 @@ donation_items:
     price: "250"
     stripe_url: "https://buy.stripe.com/dRm8wPanE1Dt8GIdWacIE08"
     donation_feature:
-      - "All Supporter benefits."
+      - "All Aluminum Sponsor benefits."
       - "A spotlight in our social posts."
 
   - title: "Bronze Sponsor"
@@ -27,7 +27,7 @@ donation_items:
     price: "500"
     stripe_url: "https://buy.stripe.com/4gMcN5anEgyng9adWacIE07"
     donation_feature:
-      - "All Bronze Sponsor benefits."
+      - "All Stell Sponsor benefits."
       - "Your logo on our team shirts."
 
   - title: "Silver Sponsor"
@@ -35,7 +35,7 @@ donation_items:
     price: "1,000"
     stripe_url: "https://buy.stripe.com/14AeVdfHYfuj4qs9FUcIE06"
     donation_feature:
-      - "All Silver Sponsor benefits."
+      - "All Bronze Sponsor benefits."
       - "Your sticker on our robot."
 
   - title: "Gold Sponsor"
@@ -43,7 +43,7 @@ donation_items:
     price: "5,000"
     stripe_url: "https://buy.stripe.com/fZu4gz0N4ci74qsg4icIE05"
     donation_feature:
-      - "All Gold Sponsor benefits."
+      - "All Silver Sponsor benefits."
       - "Three posts on our social media."
 
   - title: "Platinum Sponsor"
@@ -51,7 +51,7 @@ donation_items:
     price: "10,000"
     stripe_url: "https://buy.stripe.com/4gM6oHbrI81Rg9a4lAcIE04"
     donation_feature:
-      - "All Platinum Sponsor benefits."
+      - "All Gold Sponsor benefits."
       - "Two additional social media posts."
       - "Your logo on our 2' x 3' competition poster(Displayed in the pits)."
 
