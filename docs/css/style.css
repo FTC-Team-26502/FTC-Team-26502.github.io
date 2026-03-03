@@ -8569,7 +8569,7 @@ textarea.form-control {
       background: linear-gradient(80deg, #ff9ad4 0%, #fce7ff 100%);
       padding: 15px 0; } }
   .naviagtion.nav-bg {
-    background: #ff9ad4;
+    background: linear-gradient(80deg, #ff9ad4 0%, #fce7ff 100%);
     padding: 15px 0; }
   .naviagtion.naviagtion-white.nav-bg {
     background: #ffffff;
@@ -8613,7 +8613,7 @@ textarea.form-control {
   padding: 20px 22px;
   font-family: "Poppins", sans-serif;
   transition: all ease 0.3s;
-  color: #001143; }
+  color: #fd00d3; }
   @media (max-width: 1200px) {
     .navbar .nav-item .nav-link {
       padding: 20px 15px; } }
