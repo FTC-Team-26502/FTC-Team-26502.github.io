@@ -2,7 +2,7 @@
 ############################### Banner #################################
 banner:
   enable : true
-  bg_image : "images/background/banner.png"
+  bg_image : ""
   title : "BRB Robotics"
   subtitle: "FTC Team 26502"
   moto: "Wicked Smart; Quacking Up Innovation"
