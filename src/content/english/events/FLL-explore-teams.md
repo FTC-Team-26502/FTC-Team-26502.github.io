@@ -5,7 +5,7 @@ short_description: "Join our FLL Explore Archaeology season! LEGO-based robotics
 page_header_image: "images/events/FLL_Explore_Archaeology.jpg"
 description: "FIRST LEGO League (FLL) Explore is a hands-on STEM program where students learn teamwork and basic engineering with LEGO-based robotics and a themed project. This season’s theme is Archaeology. Our FTC team will coach and guide teams through the season, ending with a May Showcase (date TBD)."
 
-stripe_url: https://buy.stripe.com/cNiaEXcvMdmbaOQaJYcIE01
+stripe_url: 
 event_dates:
 - 2026-05-31
 
