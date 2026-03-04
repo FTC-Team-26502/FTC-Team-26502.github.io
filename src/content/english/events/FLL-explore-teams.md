@@ -1,5 +1,5 @@
 ---
-title: "FIRST LEGO League (FLL) Explore Teams — Archaeology"
+title: "FLL Explore Teams"
 date: 2026-02-01T12:00:00-05:00
 short_description: "Join our FLL Explore Archaeology season! LEGO-based robotics, teamwork, and a themed project—Sundays 2:30–3:30 PM in Charlottesville."
 page_header_image: "images/events/FLL_Explore_Archaeology.jpg"
