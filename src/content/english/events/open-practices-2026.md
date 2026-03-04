@@ -38,3 +38,14 @@ draft: false
 </p>
 
 <br />
+
+<!-- Horizontal row of buttons using your existing site button class: Sign-Up-Button -->
+<div class="signup-row" style="display:flex; gap:12px; flex-wrap:wrap; justify-content:center; align-items:center;">
+  <a class="Sign-Up-Button" href="" target="_blank" rel="noopener">
+    Sign Up: April 5
+  </a>
+
+  <a class="Sign-Up-Button" href="" target="_blank" rel="noopener">
+    Sign Up: May 2
+  </a>
+</div>
