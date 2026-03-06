@@ -31,7 +31,7 @@ mentor_sections:
       designation : "Asst. Professor, Systems Engineering"
       description : "Professional development planning, Robotics Extravaganza sponsor, 10+ in-person meetings"
     - name : "David Evans"
-      designation : "Olsen Professor of Engineering"
+      designation : "Olsen Bicentenial Professor of Engineering"
       description : "Interview preparation, technical writing guidance, 10+ in-person meetings"
     - name : "Sujan Sarkar"
       designation : "Ph.D. Student"
