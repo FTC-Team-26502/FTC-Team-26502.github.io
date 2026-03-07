@@ -20,8 +20,8 @@ team_member:
 
 # team member
 - name : "Gregory"
-  image : ""
-  designation : ""
+  image : "images/team/Gregory.jpg"
+  designation : "Designer & Builder"
   description: 
 
 mentor_sections:
@@ -58,6 +58,6 @@ mentor_sections:
 mentor_cta:
   enable : true
   label : "Become a Mentor"
-  link : "https://your-link-here.com"
+  link : "https://docs.google.com/forms/d/e/1FAIpQLSd9wGGTbK-W9GtFZMsArFhWVsifFslG9fnZnAhdQast2MGd6A/viewform?usp=publish-editor"
   text : "Interested in supporting our team?"
 ---
