@@ -23,16 +23,12 @@ seasons:
     - label: "Manufacturing"
       value: "Custom 3D-printed and laser-cut parts"
   gallery:
-    - image: "images/robot/decode-1.jpg"
-      caption: "DeCode competition robot"
-    - image: "images/robot/decode-2.jpg"
-      caption: "Robot detail view"
   cad:
     enable: true
     label: "View CAD (Onshape)"
-    link: "https://your-onshape-link-here.com"
+    link: "https://cad.onshape.com/documents/ba62e7f8b93328845d3d06f7/w/91729cffc09fbabc47f2ea43/e/ed6ba27cc060cc47f8d8afbe"
   portfolio:
-    enable: true
+    enable: false
     label: "Download Portfolio"
     file: "/files/decode-portfolio.pdf"
     preview_image: "images/robot/decode-portfolio-preview.jpg"
