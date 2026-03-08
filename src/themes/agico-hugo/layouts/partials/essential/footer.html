@@ -1,5 +1,5 @@
 {{"<!-- footer part start -->" | safeHTML }}
-<footer class="bg-secondary pt-5">
+<footer class="bg_gradient_primary pt-5">
   <div class="section">
     <div class="container">
       <div class="row justify-content-between">
@@ -7,7 +7,7 @@
           <a href="{{ site.BaseURL | relLangURL }}" class="mb-4 d-inline-block">
             {{ partial "logo.html" (dict "Alt" site.Title)}}
           </a>
-          <p class="text-light mb-4">{{ site.Params.footer_content | markdownify }}</p>
+          <p class="text-dark mb-4">{{ site.Params.footer_content | markdownify }}</p>
           <ul class="list-inline social-icons">
             {{ range site.Params.social }}
             <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i> <span class="screen-reader-text">{{.title}}</span></a></li>
@@ -18,16 +18,16 @@
           <h4 class="text-white mb-4">{{ i18n "quick_links" }}</h4>
           <ul class="list-unstyled list-hover-underline">
             {{ range site.Menus.footer }}
-            <li class="mb-3 text-light"><a href="{{ .URL | relLangURL }}" class="text-light">{{ .Name }}</a></li>
+            <li class="mb-3 text-dark"><a href="{{ .URL | relLangURL }}" class="text-dark">{{ .Name }}</a></li>
             {{ end }}
           </ul>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6">
           <h4 class="text-white mb-4">{{ i18n "contact_info"}}</h4>
           <ul class="list-unstyled">
-            <li class="mb-3 text-light">{{site.Params.contact_info.address | safeHTML }}</li>
-            <li class="mb-3 text-light">{{site.Params.contact_info.mobile | safeHTML }}</li>
-            <li class="mb-3 text-light">{{site.Params.contact_info.email | safeHTML }}</li>
+            <li class="mb-3 text-dark">{{site.Params.contact_info.address | safeHTML }}</li>
+            <li class="mb-3 text-dark">{{site.Params.contact_info.mobile | safeHTML }}</li>
+            <li class="mb-3 text-dark">{{site.Params.contact_info.email | safeHTML }}</li>
           </ul>
         </div>
       </div>
@@ -40,7 +40,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
-          <p class="mb-0 text-light copyright">
+          <p class="mb-0 text-dark copyright">
             {{ site.Params.copyright | markdownify }}
             {{ if site.Params.theme_copyright }}
             | Theme by
