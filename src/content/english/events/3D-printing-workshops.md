@@ -6,7 +6,6 @@ page_header_image: "images/events/3D_Printing.jpg"
 description: "Join BRB Robotics (FTC Team 26502) for a hands-on 3D Printing Workshop. Students will learn how 3D printing works, see a printer up close, and explore how teams use 3D printing to prototype parts for robotics. Registration is required—no drop-ins."
 
 event_dates:
-  - 2026-03-08
   - 2026-04-12
   - 2026-05-10
 
