@@ -8,6 +8,7 @@
     <div class="events-holder d-flex  justify-content-evenly">
       
       <i class="fa fa-star fa-xl" style="color:{{ $.Site.Params.variables.dark_pink }}"></i>
+      <!-- Rrequire sorting out past events -->
 	{{ range $page := (where $.Site.RegularPages "Section" "events" ).Reverse }}
 		{{ $eventDate := index $page.Params.event_dates 0 }}
 		{{ $eventDateParsed := time $eventDate }}
@@ -18,9 +19,9 @@
           <a href="{{ $page.RelPermalink }}" style="text-decoration: none; color: inherit;">
               {{ $page.Title }}</br>
               <h6><strong>Date:</strong>
-              {{ $count := len .Params.event_dates }}
+              {{ $count := len .Params.event_dates }} <!-- Get the total count -->
               {{ range $index, $date := .Params.event_dates }}
-                  {{ $date }}{{ if ne (add $index 1) $count }}, {{ end }}
+                  {{ $date }}{{ if ne (add $index 1) $count }}, {{ end }} <!-- Add comma if not the last item -->
               {{ end }} </h6>
           </a>
         </h6>
@@ -51,23 +52,8 @@
         <div data-aos="zoom-in" data-aos-delay="500" style="max-width: 350px; margin: 0 auto;">
           {{ partial "image.html" (dict "Src" .image "Alt" "illustration") }}
         </div>
-      </div>
     </div>
-
-    <!-- Stats row - inside the banner, right below the text and image -->
-    {{ with $.Params.stats }}
-    {{ if .enable }}
-    <div class="row text-center mt-4 pt-4">
-      {{ range .items }}
-      <div class="col-6 col-md-3 mb-3 mb-md-0" data-aos="fade-up">
-        <h2 class="fw-bold" style="color:{{ $.Site.Params.variables.dark_pink }}">{{ .count }}</h2>
-        <p class="mb-0">{{ .label }}</p>
-      </div>
-      {{ end }}
     </div>
-    {{ end }}
-    {{ end }}
-
   </div>
 </section>
 {{ end }}
