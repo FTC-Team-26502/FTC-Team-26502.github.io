@@ -1,0 +1,166 @@
+{{ define "main" }}
+
+{{ range $index, $season := .Params.seasons }}
+
+<!-- {{"season" | safeHTML}} -->
+<section class="section">
+  <div class="container">
+
+    <!-- Season header -->
+    <div class="row justify-content-center mb-4">
+      <div class="col-12 text-center">
+        <h2 class="text-dark">{{ .name }}</h2>
+        <p class="text-muted" style="font-size: 1.2em;">{{ .year }}</p>
+      </div>
+    </div>
+
+    <!-- Full width overview text -->
+    <div class="row mb-4">
+      <div class="col-12">
+        <p class="text-dark" style="font-size: 1.1em;">{{ .overview }}</p>
+      </div>
+    </div>
+
+    <!-- Image + buttons -->
+    <div class="row align-items-center justify-content-center mb-5">
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        {{ partial "image.html" (dict "Src" .image "Alt" .name "Class" "w-100 rounded-sm shadow") }}
+      </div>
+      <div class="col-lg-5 text-center">
+        <div class="d-flex flex-wrap gap-3 justify-content-center">
+          {{ with .cad }}
+          {{ if .enable }}
+          <div class="sign-up-button">
+            <div>
+              <a href="{{ .link }}" class="Sign-Up-Button" target="_blank">
+                <i class="fas fa-cube me-2"></i>{{ .label }}
+              </a>
+            </div>
+          </div>
+          {{ end }}
+          {{ end }}
+
+          {{ with .portfolio }}
+          {{ if .enable }}
+          <div class="sign-up-button">
+            <div>
+              <a href="{{ .file }}" class="Sign-Up-Button" download>
+                <i class="fas fa-file-pdf me-2"></i>{{ .label }}
+              </a>
+            </div>
+          </div>
+          {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+
+    <!-- Full-width expandable bars -->
+    <div class="row">
+      <div class="col-12">
+
+        <!-- Robot Details bar -->
+        <div class="mb-3">
+          <div style="background-color: #0b0040; border-radius: 8px; overflow: hidden;">
+            <button onclick="toggleSection('details-{{ $index }}')" style="width: 100%; background: none; border: none; color: white; padding: 20px 30px; font-size: 1.2em; font-weight: bold; display: flex; justify-content: space-between; align-items: center; cursor: pointer;">
+              <span><i class="fas fa-robot me-3"></i>Robot Details & Specs</span>
+              <i class="fas fa-chevron-down" id="arrow-details-{{ $index }}" style="transition: transform 0.3s;"></i>
+            </button>
+            <div id="details-{{ $index }}" style="display: none; padding: 0 30px 25px 30px; background-color: white;">
+              <div style="padding-top: 20px;">
+                <p class="text-dark mb-4">{{ .description }}</p>
+                {{ if .specs }}
+                <table class="table">
+                  <tbody>
+                    {{ range .specs }}
+                    <tr>
+                      <td class="text-dark" style="font-weight: bold; width: 40%;">{{ .label }}</td>
+                      <td class="text-dark">{{ .value }}</td>
+                    </tr>
+                    {{ end }}
+                  </tbody>
+                </table>
+                {{ end }}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Photo Gallery bar -->
+        {{ if .gallery }}
+        <div class="mb-3">
+          <div style="background-color: #0b0040; border-radius: 8px; overflow: hidden;">
+            <button onclick="toggleSection('gallery-{{ $index }}')" style="width: 100%; background: none; border: none; color: white; padding: 20px 30px; font-size: 1.2em; font-weight: bold; display: flex; justify-content: space-between; align-items: center; cursor: pointer;">
+              <span><i class="fas fa-images me-3"></i>Photo Gallery</span>
+              <i class="fas fa-chevron-down" id="arrow-gallery-{{ $index }}" style="transition: transform 0.3s;"></i>
+            </button>
+            <div id="gallery-{{ $index }}" style="display: none; padding: 0 30px 25px 30px; background-color: white;">
+              <div style="padding-top: 20px;">
+                <div class="row">
+                  {{ range .gallery }}
+                  <div class="col-md-6 mb-4">
+                    {{ partial "image.html" (dict "Src" .image "Alt" .caption "Class" "w-100 rounded-sm shadow-sm") }}
+                    {{ if .caption }}
+                    <p class="text-muted text-center mt-2">{{ .caption }}</p>
+                    {{ end }}
+                  </div>
+                  {{ end }}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+
+        <!-- Portfolio Preview bar -->
+        {{ with .portfolio }}
+        {{ if .enable }}
+        {{ if .preview_image }}
+        <div class="mb-3">
+          <div style="background-color: #0b0040; border-radius: 8px; overflow: hidden;">
+            <button onclick="toggleSection('portfolio-{{ $index }}')" style="width: 100%; background: none; border: none; color: white; padding: 20px 30px; font-size: 1.2em; font-weight: bold; display: flex; justify-content: space-between; align-items: center; cursor: pointer;">
+              <span><i class="fas fa-file-pdf me-3"></i>Portfolio Preview</span>
+              <i class="fas fa-chevron-down" id="arrow-portfolio-{{ $index }}" style="transition: transform 0.3s;"></i>
+            </button>
+            <div id="portfolio-{{ $index }}" style="display: none; padding: 0 30px 25px 30px; background-color: white;">
+              <div style="padding-top: 20px;" class="text-center">
+                {{ partial "image.html" (dict "Src" .preview_image "Alt" "Portfolio Preview" "Class" "w-100 rounded-sm shadow-sm") }}
+                <div class="sign-up-button mt-4">
+                  <div>
+                    <a href="{{ .file }}" class="Sign-Up-Button" download>
+                      <i class="fas fa-download me-2"></i>Download Full Portfolio
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+        {{ end }}
+        {{ end }}
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+{{ end }}
+
+<!-- Toggle script -->
+<script>
+function toggleSection(id) {
+  var content = document.getElementById(id);
+  var arrow = document.getElementById('arrow-' + id);
+  if (content.style.display === 'none') {
+    content.style.display = 'block';
+    arrow.style.transform = 'rotate(180deg)';
+  } else {
+    content.style.display = 'none';
+    arrow.style.transform = 'rotate(0deg)';
+  }
+}
+</script>
+
+{{ end }}
