@@ -7,7 +7,7 @@ description: "FIRST LEGO League (FLL) Explore is a hands-on STEM program where s
 
 stripe_url: 
 event_dates:
-- 2026-05-31
+- 2026-05-24
 
 time: "2:30 PM – 3:30 PM"
 location: "2171 Ivy Road, Charlottesville, VA"
@@ -22,7 +22,7 @@ draft: false
 </div>
 
 <div>
-  <strong>When:</strong> Every Sunday starting March 18, 2026
+  <strong>When:</strong> Every Sunday starting March 29, 2026 till the competition Sunday May 24, 2026
 </div>
 
 <div>
@@ -77,7 +77,11 @@ draft: false
 </div>
 
 </br>
-
+<div>
+<a class="Sign-Up-Button" href="https://buy.stripe.com/fZu28ranE0zp9KM19ocIE0o" target="_blank" rel="noopener">
+    Sign Up
+  </a>
+</div>
 <div>
   <h5>All funds from sign-ups will go directly to supporting FTC Team 26502, BRB Robotics.</h5>
 </div>

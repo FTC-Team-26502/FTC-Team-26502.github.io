@@ -41,11 +41,11 @@ draft: false
 
 <!-- Horizontal row of buttons using your existing site button class: Sign-Up-Button -->
 <div class="signup-row" style="display:flex; gap:12px; flex-wrap:wrap; justify-content:center; align-items:center;">
-  <a class="Sign-Up-Button" href="" target="_blank" rel="noopener">
+  <a class="Sign-Up-Button" href="https://buy.stripe.com/9B6cN5dzQ6XN8GI05kcIE0m" target="_blank" rel="noopener">
     Sign Up: April 5
   </a>
 
-  <a class="Sign-Up-Button" href="" target="_blank" rel="noopener">
+  <a class="Sign-Up-Button" href="https://buy.stripe.com/7sY9ATcvM0zpe123hwcIE0n" target="_blank" rel="noopener">
     Sign Up: May 2
   </a>
 </div>
