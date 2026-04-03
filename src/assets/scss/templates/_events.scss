@@ -1,0 +1,103 @@
+
+.events-list {
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    width:100%;
+    align-items:center;
+    justify-content:center;
+}
+.event-old {
+    // opacity:0.85;
+    // filter: saturate(0%);
+}
+
+.event-item {
+    padding: 2rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    text-align: center;
+    margin: 1rem;
+    width:550px;
+    height: 480px;
+    border-radius: 15px;
+    background-color: rgb(4, 0, 44);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.event-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.event-item h3 {
+    font-size: 2rem;
+    color: #ff88da;
+    margin-bottom: 0.5rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.event-item p {
+    margin: 0.5rem 0;
+    color: #ffffff;
+    padding: 0 1rem;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.event-item p strong {
+    color: #ffffff;
+}
+
+.event-button {
+    display: inline-block;
+    
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    
+    color: #fff;
+    background: #ff88da;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.event-button:hover {
+    background: #d711ff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
+
+.events-holder {
+    height:150px;
+    align-items:center;
+    background-color:$light-pink;
+    width:100%;
+    
+}
+
+.home-event-item {
+    
+    h6 { 
+        color:$dark-pink;
+    }
+    width: 350px;
+    height: 200px;
+}
+
+.sign-up-button {
+    margin-top: auto; /* Push the footer to the bottom */
+    padding-bottom: 10px; /* Space between footer content and card edge */
+  }
+
+.learn-more-button { /* Push the footer to the bottom */
+    margin-top: auto; /* Push the footer to the bottom */
+    padding-bottom: 10px; /* Space between footer content and card edge */
+  }

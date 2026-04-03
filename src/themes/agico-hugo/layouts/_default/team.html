@@ -1,13 +1,13 @@
 {{ define "main" }}
 
 <!-- {{"team" | safeHTML}} -->
-<section class="section section-lg-bottom">
+<section class="section section-lg-bottom" style="padding-bottom: 0;">
   <div class="container">
     <div class="row team-holder">
       {{ range $index, $element:= .Params.team_member }}
       <!-- {{"team member" | safeHTML}} -->
       <div class="col-lg-4 col-md-6 mb-5">
-        <div class="team-member text-center"> 
+        <div class="team-member text-center" style="background-color: #0b0040; border-radius: 5px;"> 
           {{ partial "image.html" (dict "Src" .image "Alt" .name  "Class" "w-100 rounded-sm" "Size" "450x") }}
           <div class="team-member-content p-4">
             <h5 class="team-member-name text-white">{{.name}}</h5>
@@ -20,5 +20,67 @@
   </div>
 </section>
 {{"<!-- /team -->" | safeHTML}}
+
+<!-- {{"mentors" | safeHTML}} -->
+{{ if .Params.mentor_sections }}
+<section class="pt-0 pb-5">
+  <div class="container">
+    <div class="row justify-content-center mb-4">
+      <div class="col-12 text-center">
+        <h2 class="text-white">Engineering Mentors</h2>
+      </div>
+    </div>
+
+    <!-- Become a Mentor button -->
+    {{ with $.Params.mentor_cta }}
+    {{ if .enable }}
+    <div class="row justify-content-center mt-2 mb-3">
+      <div class="col-12 text-center">
+        <h3 class="text-dark mb-4">{{ .text }}</h3>
+        <div class="sign-up-button">
+          <div>
+            <a href="{{ .link }}" class="Sign-Up-Button" style="font-size: 1.4em; padding: 15px 40px;">
+              {{ .label }}
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    {{ end }}
+    {{ end }}
+
+    <!-- Mentors heading - separated with more space -->
+    <div class="row justify-content-center mt-5 mb-4">
+      <div class="col-12 text-center">
+        <h2 class="text-dark">Mentors</h2>
+      </div>
+    </div>
+
+    {{ range .Params.mentor_sections }}
+    <div class="row justify-content-center mb-2">
+      <div class="col-12 text-center">
+        <h4 class="text-dark mb-3">{{ .category }}</h4>
+      </div>
+    </div>
+    <div class="row justify-content-center mb-5">
+      {{ range .mentors }}
+      <div class="col-lg-4 col-md-4 col-6 mb-4">
+        <div class="text-center p-3">
+          <i class="fa fa-user-circle fa-3x mb-3" style="color: text-dark;"></i>
+          <h5 class="text-dark">{{ .name }}</h5>
+          <p class="text-dark mb-1"><em>{{ .designation }}</em></p>
+          {{ if .description }}
+          <p class="text-dark" style="font-size: 0.9em;">{{ .description }}</p>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+
+  </div>
+</section>
+{{ end }}
+{{"<!-- /mentors -->" | safeHTML}}
 
 {{ end }}

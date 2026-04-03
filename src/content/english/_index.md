@@ -2,14 +2,26 @@
 ############################### Banner #################################
 banner:
   enable : true
-  bg_image : "images/background/banner.png"
+  bg_image : ""
   title : "BRB Robotics"
   subtitle: "FTC Team 26502"
-  moto: "Wicked Smart; Quacking Up Innovation"
-  content : "We are a FIRST Tech Challenge (FTC) team from Charlottesville, Virginia, dedicated to inspiring innovation and encouraging more girls to explore STEM and robotics. Through hosting workshops, mentoring teams, and collaborating with local organizations, we work to make STEM fun and accessible for all. We believe that teamwork, creativity, and community are essential to empowering the next generation of innovators."
+  content : "FTC Team 26502 — BRB Robotics is a student-led robotics team driven by curiosity, creativity, and competition. We design, build, and program robots for the FIRST Tech Challenge—testing our ideas through iteration, teamwork, and real-world engineering practices. From CAD and fabrication to coding and match strategy, we're always learning and improving together. <br> Beyond the competition field, we're committed to outreach by sharing STEM through demonstrations, community events, and mentoring younger students. With the guidance of our dedicated mentors, we strengthen our technical skills, leadership, and teamwork while making a positive impact in our community."
   image : "images/banner/banner-1.jpg"
   button:
     enable : false
     label : "Join Us"
     link : "#"
+
+############################### Stats ##################################
+stats:
+  enable : true
+  items:
+    - count : "50+"
+      label : "Hours Volunteered"
+    - count : "10+"
+      label : "Events"
+    - count : "6"
+      label : "Competitions"
+    - count : "3"
+      label : "Members"
 ---
