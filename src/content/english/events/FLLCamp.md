@@ -130,6 +130,6 @@ draft: false
   <h5>All funds from sign-ups will go directly to supporting FTC Team 26502, BRB Robotics.</h5>
 </div>
 
-<a class="Sign-Up-Button" href="https://buy.stripe.com/fZu28ranE0zp9KM19ocIE0o" target="_blank" rel="noopener">
+<a class="Sign-Up-Button" href="https://buy.stripe.com/fZu4gz7bsfuj7CE8BQcIE0p" target="_blank" rel="noopener">
   Sign Up
 </a>
