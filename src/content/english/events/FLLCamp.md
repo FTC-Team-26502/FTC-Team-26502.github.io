@@ -79,7 +79,7 @@ draft: false
 </div>
 
 <div>
-  <strong>Cost:</strong> $199.99
+  <strong>Cost:</strong> $250
 </div>
 
 <div>
